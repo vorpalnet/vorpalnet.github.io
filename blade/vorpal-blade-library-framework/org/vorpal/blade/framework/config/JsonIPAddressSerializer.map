@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./JsonIPAddressSerializer.html" title="org.vorpal.blade.framework.config.JsonIPAddressSerializer" alt="" coords="275,555,427,627"/>
+<area shape="rect" id="node3_1" href="http://java.sun.com/j2se/1.4.2/docs/api/com/fasterxml/jackson/core/JsonGenerator.html" title="com.fasterxml.jackson.core.JsonGenerator" alt="" coords="16,981,208,2907"/>
+<area shape="rect" id="node4_2" href="http://java.sun.com/j2se/1.4.2/docs/api/inet/ipaddr/IPAddress.html" title="inet.ipaddr.IPAddress" alt="" coords="254,685,447,3203"/>
+<area shape="rect" id="node5_3" href="http://java.sun.com/j2se/1.4.2/docs/api/com/fasterxml/jackson/databind/SerializerProvider.html" title="com.fasterxml.jackson.databind.SerializerProvider" alt="" coords="493,1341,718,2547"/>
+<area shape="rect" id="node2_4" href="http://java.sun.com/j2se/1.4.2/docs/api/com/fasterxml/jackson/databind/ser/std/StdSerializer.html" title="com.fasterxml.jackson.databind.ser.std.StdSerializer" alt="" coords="241,11,461,496"/>
+</map>

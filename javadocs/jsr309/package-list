@@ -1,0 +1,12 @@
+javax.media.mscontrol
+javax.media.mscontrol.join
+javax.media.mscontrol.mediagroup
+javax.media.mscontrol.mediagroup.http
+javax.media.mscontrol.mediagroup.signals
+javax.media.mscontrol.mixer
+javax.media.mscontrol.networkconnection
+javax.media.mscontrol.resource
+javax.media.mscontrol.resource.common
+javax.media.mscontrol.resource.video
+javax.media.mscontrol.spi
+javax.media.mscontrol.vxml
