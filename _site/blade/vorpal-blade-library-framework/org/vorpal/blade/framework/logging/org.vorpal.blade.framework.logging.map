@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="16,11,136,707"/>
+<area shape="rect" id="node2_1" href="./Logger.Direction.html" title="org.vorpal.blade.framework.logging.Logger.Direction" alt="" coords="182,339,282,379"/>
+<area shape="rect" id="node3_2" href="./LogManager.html" title="org.vorpal.blade.framework.logging.LogManager" alt="" coords="327,275,451,443"/>
+<area shape="rect" id="node4_3" href="./LogFormatter.html" title="org.vorpal.blade.framework.logging.LogFormatter" alt="" coords="497,323,588,395"/>
+<area shape="rect" id="node5_4" href="./ConsoleColors.html" title="org.vorpal.blade.framework.logging.ConsoleColors" alt="" coords="634,347,734,371"/>
+</map>
