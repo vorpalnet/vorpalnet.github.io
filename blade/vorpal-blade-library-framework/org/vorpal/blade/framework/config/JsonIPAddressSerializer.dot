@@ -23,14 +23,14 @@ digraph G {
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.JsonIPAddressSerializer extends com.fasterxml.jackson.databind.ser.std.StdSerializer<inet.ipaddr.IPAddress>
 	c1292:p -> c1264:p [dir=back,arrowtail=empty];
-	// org.vorpal.blade.framework.config.JsonIPAddressSerializer DEPEND com.fasterxml.jackson.core.JsonGenerator
-	c1264:p -> c1293:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.config.JsonIPAddressSerializer DEPEND com.fasterxml.jackson.databind.SerializerProvider
+	c1264:p -> c1293:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// org.vorpal.blade.framework.config.JsonIPAddressSerializer DEPEND com.fasterxml.jackson.core.JsonGenerator
 	c1264:p -> c1294:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.config.JsonIPAddressSerializer DEPEND inet.ipaddr.IPAddress
 	c1264:p -> c1314:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.fasterxml.jackson.core.JsonGenerator
-	c1293 [label=<<table title="com.fasterxml.jackson.core.JsonGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c1294 [label=<<table title="com.fasterxml.jackson.core.JsonGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> JsonGenerator </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.core </font></td></tr>
@@ -158,7 +158,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// com.fasterxml.jackson.databind.SerializerProvider
-	c1294 [label=<<table title="com.fasterxml.jackson.databind.SerializerProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c1293 [label=<<table title="com.fasterxml.jackson.databind.SerializerProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> SerializerProvider </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.databind </font></td></tr>
