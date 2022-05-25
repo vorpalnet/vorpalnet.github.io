@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./AclConfig.html" title="org.vorpal.blade.services.acl.AclConfig" alt="" coords="55,11,201,147"/>
-<area shape="rect" id="node3_1" href="./AclRule.html" title="org.vorpal.blade.services.acl.AclRule" alt="" coords="16,205,123,325"/>
-<area shape="rect" id="node5_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/services/acl/AclRule/Permission.html" title="org.vorpal.blade.services.acl.AclRule.Permission" alt="" coords="70,384,170,424"/>
-<area shape="rect" id="node2_3" href="./AclConfigManager.html" title="org.vorpal.blade.services.acl.AclConfigManager" alt="" coords="261,229,381,301"/>
-<area shape="rect" id="node4_4" href="./AclSipServlet.html" title="org.vorpal.blade.services.acl.AclSipServlet" alt="" coords="263,35,379,123"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./LoadBalancerSettingsManager.html" title="org.vorpal.blade.services.loadbalancer.LoadBalancerSettingsManager" alt="" coords="16,43,204,115"/>
-<area shape="rect" id="node2_1" href="./ProxyCallflow.html" title="org.vorpal.blade.services.loadbalancer.ProxyCallflow" alt="" coords="249,43,341,115"/>
-<area shape="rect" id="node3_2" href="./LoadBalancerServlet.html" title="org.vorpal.blade.services.loadbalancer.LoadBalancerServlet" alt="" coords="387,11,521,147"/>
-</map>

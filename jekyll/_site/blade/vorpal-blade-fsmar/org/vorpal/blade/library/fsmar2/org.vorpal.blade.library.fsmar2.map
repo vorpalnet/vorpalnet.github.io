@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./State.html" title="org.vorpal.blade.library.fsmar2.State" alt="" coords="47,237,131,309"/>
-<area shape="rect" id="node3_1" href="./Trigger.html" title="org.vorpal.blade.library.fsmar2.Trigger" alt="" coords="31,368,147,440"/>
-<area shape="rect" id="node2_2" href="./Action.html" title="org.vorpal.blade.library.fsmar2.Action" alt="" coords="29,741,149,813"/>
-<area shape="rect" id="node7_3" href="./Transition.html" title="org.vorpal.blade.library.fsmar2.Transition" alt="" coords="31,499,147,683"/>
-<area shape="rect" id="node4_4" href="./Configuration.html" title="org.vorpal.blade.library.fsmar2.Configuration" alt="" coords="16,35,161,155"/>
-<area shape="rect" id="node5_5" href="./AppRouter.html" title="org.vorpal.blade.library.fsmar2.AppRouter" alt="" coords="207,11,363,179"/>
-<area shape="rect" id="node6_6" href="./AppRouterProvider.html" title="org.vorpal.blade.library.fsmar2.AppRouterProvider" alt="" coords="408,59,569,131"/>
-</map>

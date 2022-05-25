@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Transfer.html" title="org.vorpal.blade.framework.transfer.Transfer" alt="" coords="41,11,155,99"/>
-<area shape="rect" id="node2_1" href="./BlindTransfer.html" title="org.vorpal.blade.framework.transfer.BlindTransfer" alt="" coords="53,157,143,229"/>
-<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callback.html" title="org.vorpal.blade.framework.callflow.Callback" alt="" coords="16,288,180,405"/>
-</map>

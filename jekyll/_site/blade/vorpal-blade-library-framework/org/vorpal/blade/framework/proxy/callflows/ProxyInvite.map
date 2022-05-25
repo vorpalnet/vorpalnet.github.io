@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="../../callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="24,11,191,720"/>
-<area shape="rect" id="node4_1" href="./ProxyInvite.html" title="org.vorpal.blade.framework.proxy.callflows.ProxyInvite" alt="" coords="16,779,199,915"/>
-<area shape="rect" id="node2_2" href="../ProxyTier.html" title="org.vorpal.blade.framework.proxy.ProxyTier" alt="" coords="29,973,185,1139"/>
-<area shape="rect" id="node3_3" href="../ProxyListener.html" title="org.vorpal.blade.framework.proxy.ProxyListener" alt="" coords="231,997,387,1115"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Transfer.html" title="org.vorpal.blade.framework.transfer.Transfer" alt="" coords="37,11,151,99"/>
-<area shape="rect" id="node2_1" href="./TransferListener.html" title="org.vorpal.blade.framework.transfer.TransferListener" alt="" coords="27,157,161,293"/>
-<area shape="rect" id="node3_2" href="../../services/transfer/TransferServlet.html" title="org.vorpal.blade.services.transfer.TransferServlet" alt="" coords="16,352,172,629"/>
-</map>
