@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ProxyConfigSample.html" title="org.vorpal.blade.services.loadbalancer.config.ProxyConfigSample" alt="" coords="16,244,143,268"/>
+<area shape="rect" id="node2_1" href="./ProxyConfig.html" title="org.vorpal.blade.services.loadbalancer.config.ProxyConfig" alt="" coords="136,11,231,131"/>
+<area shape="rect" id="node3_2" href="../proxy/ProxyRule.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyRule" alt="" coords="188,189,389,323"/>
+</map>

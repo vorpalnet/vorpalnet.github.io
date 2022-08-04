@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TestInvite.html" title="org.vorpal.blade.test.uas.callflows.TestInvite" alt="" coords="59,171,131,243"/>
+<area shape="rect" id="node3_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaListener.html" title="org.vorpal.blade.framework.b2bua.B2buaListener" alt="" coords="16,301,175,483"/>
+<area shape="rect" id="node2_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/InitialInvite.html" title="org.vorpal.blade.framework.b2bua.InitialInvite" alt="" coords="16,11,175,112"/>
+</map>

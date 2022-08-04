@@ -1,0 +1,7 @@
+org.vorpal.blade.framework
+org.vorpal.blade.framework.b2bua
+org.vorpal.blade.framework.callflow
+org.vorpal.blade.framework.config
+org.vorpal.blade.framework.logging
+org.vorpal.blade.framework.proxy
+org.vorpal.blade.framework.proxy.callflows

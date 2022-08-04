@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Transfer.html" title="org.vorpal.blade.framework.transfer.Transfer" alt="" coords="255,827,369,915"/>
+<area shape="rect" id="node2_1" href="./TransferListener.html" title="org.vorpal.blade.framework.transfer.TransferListener" alt="" coords="16,973,149,1109"/>
+<area shape="rect" id="node3_2" href="./BlindTransfer.html" title="org.vorpal.blade.framework.transfer.BlindTransfer" alt="" coords="195,1005,285,1077"/>
+<area shape="rect" id="node4_3" href="./AssistedTransfer.html" title="org.vorpal.blade.framework.transfer.AssistedTransfer" alt="" coords="331,1005,439,1077"/>
+<area shape="rect" id="node5_4" href="./MediaTransfer.html" title="org.vorpal.blade.framework.transfer.MediaTransfer" alt="" coords="485,1005,581,1077"/>
+<area shape="rect" id="node6_5" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="229,11,395,768"/>
+</map>

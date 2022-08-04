@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Reinvite.html" title="org.vorpal.blade.framework.b2bua.Reinvite" alt="" coords="16,205,88,277"/>
+<area shape="rect" id="node6_1" href="./B2buaServlet.html" title="org.vorpal.blade.framework.b2bua.B2buaServlet" alt="" coords="231,384,343,552"/>
+<area shape="rect" id="node2_2" href="./Passthru.html" title="org.vorpal.blade.framework.b2bua.Passthru" alt="" coords="133,205,205,277"/>
+<area shape="rect" id="node3_3" href="./InitialInvite.html" title="org.vorpal.blade.framework.b2bua.InitialInvite" alt="" coords="469,11,613,99"/>
+<area shape="rect" id="node7_4" href="./B2buaListener.html" title="org.vorpal.blade.framework.b2bua.B2buaListener" alt="" coords="485,157,597,325"/>
+<area shape="rect" id="node4_5" href="./Cancel.html" title="org.vorpal.blade.framework.b2bua.Cancel" alt="" coords="251,205,323,277"/>
+<area shape="rect" id="node5_6" href="./Bye.html" title="org.vorpal.blade.framework.b2bua.Bye" alt="" coords="368,205,440,277"/>
+</map>
