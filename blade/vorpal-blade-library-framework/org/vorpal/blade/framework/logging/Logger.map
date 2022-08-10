@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="../AsyncSipServlet.html" title="org.vorpal.blade.framework.AsyncSipServlet" alt="" coords="99,11,230,320"/>
-<area shape="rect" id="node2_1" href="../callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,379,183,1136"/>
-<area shape="rect" id="node4_2" href="./Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="171,1195,291,1907"/>
-<area shape="rect" id="node3_3" href="../config/SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="280,483,439,1032"/>
+<area shape="rect" id="node1_0" href="../AsyncSipServlet.html" title="org.vorpal.blade.framework.AsyncSipServlet" alt="" coords="115,11,246,320"/>
+<area shape="rect" id="node2_1" href="../callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,379,204,1280"/>
+<area shape="rect" id="node4_2" href="./Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="193,1339,313,2051"/>
+<area shape="rect" id="node3_3" href="../config/SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="301,555,460,1104"/>
 </map>

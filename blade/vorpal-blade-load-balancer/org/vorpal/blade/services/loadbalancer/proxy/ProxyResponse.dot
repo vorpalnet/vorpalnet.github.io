@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.services.loadbalancer.proxy.ProxyResponse
-	c322 [label=<<table title="org.vorpal.blade.services.loadbalancer.proxy.ProxyResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyResponse.html">
+	c323 [label=<<table title="org.vorpal.blade.services.loadbalancer.proxy.ProxyResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyResponse </td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.loadbalancer.proxy.ProxyResponses
-	c323 [label=<<table title="org.vorpal.blade.services.loadbalancer.proxy.ProxyResponses" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyResponses.html">
+	c324 [label=<<table title="org.vorpal.blade.services.loadbalancer.proxy.ProxyResponses" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyResponses.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyResponses </td></tr>
 		</table></td></tr>
@@ -40,6 +40,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.loadbalancer.proxy.ProxyResponses NAVASSOC org.vorpal.blade.services.loadbalancer.proxy.ProxyResponse
-	c323:p -> c322:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c324:p -> c323:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.proxy.ProxyTier
-	c1967 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.html">
+	c4463 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyTier </td></tr>
 		</table></td></tr>
@@ -18,23 +18,26 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getId() </td></tr>
+<tr><td align="left" balign="left">  setId() </td></tr>
 <tr><td align="left" balign="left">  getMode() </td></tr>
 <tr><td align="left" balign="left">  setMode() </td></tr>
 <tr><td align="left" balign="left">  getTimeout() </td></tr>
 <tr><td align="left" balign="left">  setTimeout() </td></tr>
 <tr><td align="left" balign="left">  getEndpoints() </td></tr>
 <tr><td align="left" balign="left">  setEndpoints() </td></tr>
+<tr><td align="left" balign="left">  addEndpoint() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyTier.Mode
-	c1968 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.Mode.html">
+	c4464 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyRule
-	c1970 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRule.html">
+	c4466 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRule </td></tr>
 		</table></td></tr>
@@ -42,54 +45,22 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  copy() </td></tr>
+<tr><td align="left" balign="left">  isEmpty() </td></tr>
 <tr><td align="left" balign="left">  getId() </td></tr>
 <tr><td align="left" balign="left">  setId() </td></tr>
+<tr><td align="left" balign="left">  clear() </td></tr>
 <tr><td align="left" balign="left">  getTiers() </td></tr>
 <tr><td align="left" balign="left">  setTiers() </td></tr>
-		</table></td></tr>
-		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.ProxyInvite
-	c1974 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyInvite.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProxyInvite </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  proxyOn() </td></tr>
-<tr><td align="left" balign="left">  proxyParallel() </td></tr>
-<tr><td align="left" balign="left">  proxySerial() </td></tr>
-<tr><td align="left" balign="left">  process() </td></tr>
-<tr><td align="left" balign="left">  cancelOutstandingRequests() </td></tr>
-		</table></td></tr>
-		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.callflows.ProxyInvite
-	c1979 [label=<<table title="org.vorpal.blade.framework.proxy.callflows.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./callflows/ProxyInvite.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProxyInvite </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.proxy.callflows </font></td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  proxyOn() </td></tr>
-<tr><td align="left" balign="left">  proxyParallel() </td></tr>
-<tr><td align="left" balign="left">  proxySerial() </td></tr>
-<tr><td align="left" balign="left">  process() </td></tr>
-<tr><td align="left" balign="left">  cancelOutstandingRequests() </td></tr>
+<tr><td align="left" balign="left">  getDescription() </td></tr>
+<tr><td align="left" balign="left">  setDescription() </td></tr>
+<tr><td align="left" balign="left">  getContext() </td></tr>
+<tr><td align="left" balign="left">  setContext() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyTier NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier.Mode
-	c1967:p -> c1968:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4463:p -> c4464:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.proxy.ProxyRule NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier
-	c1970:p -> c1967:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier
-	c1974:p -> c1967:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.proxy.callflows.ProxyInvite NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier
-	c1979:p -> c1967:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.proxy.callflows.ProxyInvite DEPEND org.vorpal.blade.framework.proxy.ProxyTier
-	c1979:p -> c1967:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c4466:p -> c4463:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

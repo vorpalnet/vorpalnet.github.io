@@ -34,7 +34,7 @@ digraph G {
 	//org.vorpal.blade.test.uas.UasServlet implements org.vorpal.blade.framework.b2bua.B2buaListener
 	c44:p -> c25:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.test.uas.UasServlet DEPEND org.vorpal.blade.framework.callflow.Callflow
-	c25:p -> c53:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c25:p -> c56:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.b2bua.B2buaListener
 	c44 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -74,7 +74,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c53 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
+	c56 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -125,6 +125,15 @@ digraph G {
 <tr><td align="left" balign="left">  unlinkSessions() </td></tr>
 <tr><td align="left" balign="left">  getLinkedSession() </td></tr>
 <tr><td align="left" balign="left">  processLater() </td></tr>
+<tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  createAcknowlegement() </td></tr>
+<tr><td align="left" balign="left">  createInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createRequest() </td></tr>
+<tr><td align="left" balign="left">  copyParameters() </td></tr>
+<tr><td align="left" balign="left">  proxyRequest() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.TransferCondition
-	c167 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
+	c170 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferCondition </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.transfer </font></td></tr>
@@ -26,7 +26,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c169 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
+	c172 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 		</table></td></tr>
@@ -47,19 +47,19 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c170 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.TransferStyle.html">
+	c173 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.TransferStyle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferStyle </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.TransferCondition NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c167:p -> c170:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c170:p -> c173:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c169:p -> c170:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c172:p -> c173:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.framework.transfer.TransferCondition
-	c169:p -> c167:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c172:p -> c170:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.transfer.TransferCondition DEPEND org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c167:p -> c170:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c170:p -> c173:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

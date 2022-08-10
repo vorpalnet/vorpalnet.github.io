@@ -22,9 +22,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.loadbalancer.ProxyCallflow extends org.vorpal.blade.framework.callflow.Callflow
-	c102:p -> c51:p [dir=back,arrowtail=empty];
+	c103:p -> c51:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c102 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
+	c103 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -75,6 +75,14 @@ digraph G {
 <tr><td align="left" balign="left">  unlinkSessions() </td></tr>
 <tr><td align="left" balign="left">  getLinkedSession() </td></tr>
 <tr><td align="left" balign="left">  processLater() </td></tr>
+<tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  createAcknowlegement() </td></tr>
+<tr><td align="left" balign="left">  createInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createRequest() </td></tr>
+<tr><td align="left" balign="left">  addParameters() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];

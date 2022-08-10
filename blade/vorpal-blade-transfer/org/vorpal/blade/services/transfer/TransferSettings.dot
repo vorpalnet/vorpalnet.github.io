@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.TransferCondition
-	c155 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
+	c158 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferCondition </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.transfer </font></td></tr>
@@ -26,13 +26,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettingsSample
-	c156 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettingsSample.html">
+	c159 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettingsSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettingsSample </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c157 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.html">
+	c160 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 		</table></td></tr>
@@ -53,30 +53,30 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c158 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.TransferStyle.html">
+	c161 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.TransferStyle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferStyle </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c159 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.LoggingLevel.html">
+	c162 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.LoggingLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> LoggingLevel </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.transfer.TransferSettingsSample extends org.vorpal.blade.services.transfer.TransferSettings
-	c157:p -> c156:p [dir=back,arrowtail=empty];
+	c160:p -> c159:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.transfer.TransferCondition NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c155:p -> c158:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c158:p -> c161:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c157:p -> c159:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c160:p -> c162:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c157:p -> c158:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c160:p -> c161:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.framework.transfer.TransferCondition
-	c157:p -> c155:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c160:p -> c158:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.transfer.TransferCondition DEPEND org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c155:p -> c158:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c158:p -> c161:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ProxyListener.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyListener" alt="" coords="70,1077,185,1181"/>
-<area shape="rect" id="node2_1" href="./ProxyTier.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyTier" alt="" coords="231,1053,331,1205"/>
-<area shape="rect" id="node3_2" href="./ProxyParallel.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyParallel" alt="" coords="147,827,259,995"/>
-<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,11,183,768"/>
-<area shape="rect" id="node5_4" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaListener.html" title="org.vorpal.blade.framework.b2bua.B2buaListener" alt="" coords="228,299,387,480"/>
+<area shape="rect" id="node1_0" href="./ProxyListener.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyListener" alt="" coords="86,1205,201,1309"/>
+<area shape="rect" id="node2_1" href="./ProxyTier.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyTier" alt="" coords="247,1181,347,1333"/>
+<area shape="rect" id="node3_2" href="./ProxyParallel.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyParallel" alt="" coords="163,955,275,1123"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,11,204,896"/>
+<area shape="rect" id="node5_4" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaListener.html" title="org.vorpal.blade.framework.b2bua.B2buaListener" alt="" coords="249,363,408,544"/>
 </map>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.callflow.Callback<T>
-	c868 [label=<<table title="org.vorpal.blade.framework.callflow.Callback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Callback.html">
+	c1261 [label=<<table title="org.vorpal.blade.framework.callflow.Callback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Callback.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Callback&lt;T&gt; </td></tr>
@@ -23,11 +23,11 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  acceptThrows() </font></td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.ProxyReinvite
-	c892 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyReinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../proxy/ProxyReinvite.html">
+	// org.vorpal.blade.framework.deprecated.proxy.ProxyReinvite
+	c1292 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyReinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../deprecated/proxy/ProxyReinvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyReinvite </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.proxy </font></td></tr>
+<tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.deprecated.proxy </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
@@ -36,11 +36,11 @@ digraph G {
 <tr><td align="left" balign="left">  process() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.callflows.ProxyReinvite
-	c898 [label=<<table title="org.vorpal.blade.framework.proxy.callflows.ProxyReinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../proxy/callflows/ProxyReinvite.html">
+	// org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyReinvite
+	c1298 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyReinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../deprecated/proxy/callflows/ProxyReinvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyReinvite </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.proxy.callflows </font></td></tr>
+<tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.deprecated.proxy.callflows </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
@@ -49,9 +49,9 @@ digraph G {
 <tr><td align="left" balign="left">  process() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.ProxyReinvite NAVASSOC org.vorpal.blade.framework.callflow.Callback<T>
-	c892:p -> c868:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.proxy.callflows.ProxyReinvite NAVASSOC org.vorpal.blade.framework.callflow.Callback<T>
-	c898:p -> c868:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.deprecated.proxy.ProxyReinvite NAVASSOC org.vorpal.blade.framework.callflow.Callback<T>
+	c1292:p -> c1261:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyReinvite NAVASSOC org.vorpal.blade.framework.callflow.Callback<T>
+	c1298:p -> c1261:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

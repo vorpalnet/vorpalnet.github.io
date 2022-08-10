@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.b2bua.Reinvite
-	c454 [label=<<table title="org.vorpal.blade.framework.b2bua.Reinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reinvite.html">
+	c685 [label=<<table title="org.vorpal.blade.framework.b2bua.Reinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reinvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Reinvite </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet
-	c459 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
+	c690 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> B2buaServlet </font></td></tr>
 		</table></td></tr>
@@ -40,7 +40,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c462 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
+	c693 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -91,14 +91,23 @@ digraph G {
 <tr><td align="left" balign="left">  unlinkSessions() </td></tr>
 <tr><td align="left" balign="left">  getLinkedSession() </td></tr>
 <tr><td align="left" balign="left">  processLater() </td></tr>
+<tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  createAcknowlegement() </td></tr>
+<tr><td align="left" balign="left">  createInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createRequest() </td></tr>
+<tr><td align="left" balign="left">  copyParameters() </td></tr>
+<tr><td align="left" balign="left">  proxyRequest() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.b2bua.Reinvite extends org.vorpal.blade.framework.callflow.Callflow
-	c462:p -> c454:p [dir=back,arrowtail=empty];
+	c693:p -> c685:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.b2bua.Reinvite NAVASSOC org.vorpal.blade.framework.b2bua.B2buaServlet
-	c454:p -> c459:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c685:p -> c690:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet DEPEND org.vorpal.blade.framework.callflow.Callflow
-	c459:p -> c462:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c690:p -> c693:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

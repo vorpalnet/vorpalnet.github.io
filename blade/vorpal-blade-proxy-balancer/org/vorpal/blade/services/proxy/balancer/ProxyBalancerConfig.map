@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ProxyBalancerConfig.html" title="org.vorpal.blade.services.proxy.balancer.ProxyBalancerConfig" alt="" coords="143,11,276,99"/>
+<area shape="rect" id="node2_1" href="./ProxyBalancerConfigSample.html" title="org.vorpal.blade.services.proxy.balancer.ProxyBalancerConfigSample" alt="" coords="16,268,192,292"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyRule.html" title="org.vorpal.blade.framework.proxy.ProxyRule" alt="" coords="238,157,394,403"/>
+</map>

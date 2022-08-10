@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.Transfer
-	c71 [label=<<table title="org.vorpal.blade.framework.transfer.Transfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transfer.html">
+	c74 [label=<<table title="org.vorpal.blade.framework.transfer.Transfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transfer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Transfer </td></tr>
 		</table></td></tr>
@@ -23,7 +23,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.TransferListener
-	c72 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferListener.html">
+	c75 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferListener </td></tr>
@@ -39,7 +39,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferServlet
-	c81 [label=<<table title="org.vorpal.blade.services.transfer.TransferServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferServlet.html">
+	c84 [label=<<table title="org.vorpal.blade.services.transfer.TransferServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferServlet </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.services.transfer </font></td></tr>
@@ -64,8 +64,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.transfer.TransferServlet implements org.vorpal.blade.framework.transfer.TransferListener
-	c72:p -> c81:p [dir=back,arrowtail=empty,style=dashed];
+	c75:p -> c84:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.framework.transfer.Transfer NAVASSOC org.vorpal.blade.framework.transfer.TransferListener
-	c71:p -> c72:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c74:p -> c75:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.test.uas.config.TestUasState
-	c72 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TestUasState.html">
+	c75 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TestUasState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestUasState </td></tr>
 		</table></td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.config.TestUasHeaders
-	c74 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasHeaders" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasHeaders.html">
+	c77 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasHeaders" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasHeaders.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestUasHeaders </td></tr>
 		</table></td></tr>
@@ -43,6 +43,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.config.TestUasState NAVASSOC org.vorpal.blade.test.uas.config.TestUasHeaders
-	c72:p -> c74:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c75:p -> c77:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

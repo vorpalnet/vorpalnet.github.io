@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.services.transfer.TransferSettingsSample
-	c144 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettingsSample.html">
+	c147 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettingsSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettingsSample </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c145 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
+	c148 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 		</table></td></tr>
@@ -37,6 +37,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.transfer.TransferSettingsSample extends org.vorpal.blade.services.transfer.TransferSettings
-	c145:p -> c144:p [dir=back,arrowtail=empty];
+	c148:p -> c147:p [dir=back,arrowtail=empty];
 }
 

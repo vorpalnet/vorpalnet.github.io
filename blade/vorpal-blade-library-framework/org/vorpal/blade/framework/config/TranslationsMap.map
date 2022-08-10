@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TranslationsMap.html" title="org.vorpal.blade.framework.config.TranslationsMap" alt="" coords="799,141,925,341"/>
+<area shape="rect" id="node3_1" href="./Selector.html" title="org.vorpal.blade.framework.config.Selector" alt="" coords="1105,400,1213,632"/>
+<area shape="rect" id="node5_2" href="./ConfigTreeMap.html" title="org.vorpal.blade.framework.config.ConfigTreeMap" alt="" coords="16,472,140,560"/>
+<area shape="rect" id="node6_3" href="./ConfigPrefixMap.html" title="org.vorpal.blade.framework.config.ConfigPrefixMap" alt="" coords="185,472,309,560"/>
+<area shape="rect" id="node7_4" href="./ConfigLinkedHashMap.html" title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" alt="" coords="355,472,499,560"/>
+<area shape="rect" id="node8_5" href="./ConfigIPv4Map.html" title="org.vorpal.blade.framework.config.ConfigIPv4Map" alt="" coords="545,472,669,560"/>
+<area shape="rect" id="node9_6" href="./ConfigHashMap.html" title="org.vorpal.blade.framework.config.ConfigHashMap" alt="" coords="715,472,839,560"/>
+<area shape="rect" id="node10_7" href="./ConfigAddressMap.html" title="org.vorpal.blade.framework.config.ConfigAddressMap" alt="" coords="884,472,1008,560"/>
+<area shape="rect" id="node2_8" href="./Translation.html" title="org.vorpal.blade.framework.config.Translation" alt="" coords="723,691,831,971"/>
+<area shape="rect" id="node4_9" href="./RouterSettings.html" title="org.vorpal.blade.framework.config.RouterSettings" alt="" coords="961,11,1059,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TranslationsMap.html" title="org.vorpal.blade.framework.config.TranslationsMap" alt="" coords="375,141,501,341"/>
+<area shape="rect" id="node4_1" href="./ConfigTreeMap.html" title="org.vorpal.blade.framework.config.ConfigTreeMap" alt="" coords="16,400,140,488"/>
+<area shape="rect" id="node5_2" href="./ConfigLinkedHashMap.html" title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" alt="" coords="186,400,330,488"/>
+<area shape="rect" id="node6_3" href="./ConfigHashMap.html" title="org.vorpal.blade.framework.config.ConfigHashMap" alt="" coords="376,400,500,488"/>
+<area shape="rect" id="node2_4" href="./Translation.html" title="org.vorpal.blade.framework.config.Translation" alt="" coords="384,547,492,827"/>
+<area shape="rect" id="node3_5" href="./RouterSettings.html" title="org.vorpal.blade.framework.config.RouterSettings" alt="" coords="389,11,487,83"/>
+</map>

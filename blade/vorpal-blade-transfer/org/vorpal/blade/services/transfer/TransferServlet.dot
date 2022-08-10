@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.TransferListener
-	c187 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferListener.html">
+	c190 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferListener </td></tr>
@@ -27,7 +27,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferServlet
-	c196 [label=<<table title="org.vorpal.blade.services.transfer.TransferServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferServlet.html">
+	c199 [label=<<table title="org.vorpal.blade.services.transfer.TransferServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferServlet </td></tr>
 		</table></td></tr>
@@ -51,13 +51,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.transfer.TransferServlet extends org.vorpal.blade.framework.b2bua.B2buaServlet
-	c198:p -> c196:p [dir=back,arrowtail=empty];
+	c201:p -> c199:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.services.transfer.TransferServlet implements org.vorpal.blade.framework.transfer.TransferListener
-	c187:p -> c196:p [dir=back,arrowtail=empty,style=dashed];
+	c190:p -> c199:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.services.transfer.TransferServlet DEPEND org.vorpal.blade.framework.callflow.Callflow
-	c196:p -> c199:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c199:p -> c202:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c199 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
+	c202 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -108,11 +108,20 @@ digraph G {
 <tr><td align="left" balign="left">  unlinkSessions() </td></tr>
 <tr><td align="left" balign="left">  getLinkedSession() </td></tr>
 <tr><td align="left" balign="left">  processLater() </td></tr>
+<tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  createAcknowlegement() </td></tr>
+<tr><td align="left" balign="left">  createInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createRequest() </td></tr>
+<tr><td align="left" balign="left">  copyParameters() </td></tr>
+<tr><td align="left" balign="left">  proxyRequest() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet
-	c198 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaServlet.html">
+	c201 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/b2bua/B2buaServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> B2buaServlet </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.b2bua </font></td></tr>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c181 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
+	c184 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 		</table></td></tr>
@@ -31,13 +31,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c183 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.LoggingLevel.html">
+	c186 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.LoggingLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> LoggingLevel </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c181:p -> c183:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c184:p -> c186:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 
