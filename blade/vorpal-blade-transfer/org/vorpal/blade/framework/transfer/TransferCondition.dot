@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.TransferCondition
-	c132 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferCondition.html">
+	c141 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferCondition </td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c134 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferSettings.html">
+	c144 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.services.transfer </font></td></tr>
@@ -34,6 +34,8 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getPreserveReferHeaders() </td></tr>
+<tr><td align="left" balign="left">  setPreserveReferHeaders() </td></tr>
 <tr><td align="left" balign="left">  getLoggingLevel() </td></tr>
 <tr><td align="left" balign="left">  setLoggingLevel() </td></tr>
 <tr><td align="left" balign="left">  getTransferAllRequests() </td></tr>
@@ -47,7 +49,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c135 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferSettings.TransferStyle.html">
+	c145 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../services/transfer/TransferSettings.TransferStyle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferStyle </td></tr>
@@ -55,19 +57,19 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.TransferCondition NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c132:p -> c135:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c141:p -> c145:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.transfer.TransferCondition NAVASSOC org.vorpal.blade.framework.config.Condition
-	c132:p -> c140:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c141:p -> c150:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c134:p -> c135:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c144:p -> c145:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.framework.transfer.TransferCondition
-	c134:p -> c132:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c144:p -> c141:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.transfer.TransferCondition DEPEND org.vorpal.blade.framework.config.Condition
-	c132:p -> c140:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c141:p -> c150:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.transfer.TransferCondition DEPEND org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c132:p -> c135:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c141:p -> c145:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.config.Condition
-	c140 [label=<<table title="org.vorpal.blade.framework.config.Condition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/config/Condition.html">
+	c150 [label=<<table title="org.vorpal.blade.framework.config.Condition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/config/Condition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Condition </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.config </font></td></tr>

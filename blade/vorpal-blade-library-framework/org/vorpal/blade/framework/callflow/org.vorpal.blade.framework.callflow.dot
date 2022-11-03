@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.callflow.Expectation
-	c134 [label=<<table title="org.vorpal.blade.framework.callflow.Expectation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Expectation.html">
+	c136 [label=<<table title="org.vorpal.blade.framework.callflow.Expectation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Expectation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Expectation </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c135 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callflow.html">
+	c137 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 		</table></td></tr>
@@ -62,6 +62,7 @@ digraph G {
 <tr><td align="left" balign="left">  createInitialRequest() </td></tr>
 <tr><td align="left" balign="left">  createRequest() </td></tr>
 <tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  copyHeader() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyHeaders() </td></tr>
@@ -85,7 +86,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callback<T>
-	c136 [label=<<table title="org.vorpal.blade.framework.callflow.Callback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callback.html">
+	c138 [label=<<table title="org.vorpal.blade.framework.callflow.Callback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Callback.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Callback&lt;T&gt; </td></tr>

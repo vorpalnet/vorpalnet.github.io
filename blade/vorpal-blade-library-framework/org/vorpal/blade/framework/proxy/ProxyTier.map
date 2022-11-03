@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ProxyTier.html" title="org.vorpal.blade.framework.proxy.ProxyTier" alt="" coords="20,301,120,501"/>
-<area shape="rect" id="node2_1" href="./ProxyTier.Mode.html" title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" alt="" coords="20,560,120,600"/>
-<area shape="rect" id="node3_2" href="./ProxyRule.html" title="org.vorpal.blade.framework.proxy.ProxyRule" alt="" coords="16,11,124,243"/>
+<area shape="rect" id="node1_0" href="./ProxyTier.html" title="org.vorpal.blade.framework.proxy.ProxyTier" alt="" coords="88,301,188,501"/>
+<area shape="rect" id="node2_1" href="./ProxyTier.Mode.html" title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" alt="" coords="16,600,116,640"/>
+<area shape="rect" id="node4_2" href="./ProxyEndpoint.html" title="org.vorpal.blade.framework.proxy.ProxyEndpoint" alt="" coords="161,560,259,680"/>
+<area shape="rect" id="node3_3" href="./ProxyRule.html" title="org.vorpal.blade.framework.proxy.ProxyRule" alt="" coords="84,11,192,243"/>
 </map>

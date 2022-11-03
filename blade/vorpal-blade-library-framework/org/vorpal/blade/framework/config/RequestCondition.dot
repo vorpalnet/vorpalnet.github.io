@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.RequestCondition
-	c1860 [label=<<table title="org.vorpal.blade.framework.config.RequestCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestCondition.html">
+	c1887 [label=<<table title="org.vorpal.blade.framework.config.RequestCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RequestCondition </td></tr>
@@ -23,7 +23,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ComparisonList
-	c1876 [label=<<table title="org.vorpal.blade.framework.config.ComparisonList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparisonList.html">
+	c1903 [label=<<table title="org.vorpal.blade.framework.config.ComparisonList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparisonList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ComparisonList </td></tr>
 		</table></td></tr>
@@ -35,7 +35,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Comparison
-	c1877 [label=<<table title="org.vorpal.blade.framework.config.Comparison" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Comparison.html">
+	c1904 [label=<<table title="org.vorpal.blade.framework.config.Comparison" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Comparison.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Comparison </td></tr>
 		</table></td></tr>
@@ -47,8 +47,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.ComparisonList implements org.vorpal.blade.framework.config.RequestCondition
-	c1860:p -> c1876:p [dir=back,arrowtail=empty,style=dashed];
+	c1887:p -> c1903:p [dir=back,arrowtail=empty,style=dashed];
 	//org.vorpal.blade.framework.config.Comparison implements org.vorpal.blade.framework.config.RequestCondition
-	c1860:p -> c1877:p [dir=back,arrowtail=empty,style=dashed];
+	c1887:p -> c1904:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c1790 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c1816 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Translation
-	c1791 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
+	c1817 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Translation </td></tr>
 		</table></td></tr>
@@ -55,7 +55,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Selector
-	c1795 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
+	c1821 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Selector </td></tr>
 		</table></td></tr>
@@ -77,7 +77,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RouterSettings
-	c1796 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RouterSettings.html">
+	c1822 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RouterSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RouterSettings </td></tr>
 		</table></td></tr>
@@ -89,16 +89,16 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.TranslationsMap NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1790:p -> c1795:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1816:p -> c1821:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.Translation NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1791:p -> c1790:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1817:p -> c1816:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1796:p -> c1795:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1822:p -> c1821:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1796:p -> c1790:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1822:p -> c1816:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1796:p -> c1790:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1822:p -> c1816:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Translation
-	c1796:p -> c1791:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1822:p -> c1817:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

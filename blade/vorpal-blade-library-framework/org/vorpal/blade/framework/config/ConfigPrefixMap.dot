@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c2576 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c2613 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigPrefixMap
-	c2593 [label=<<table title="org.vorpal.blade.framework.config.ConfigPrefixMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigPrefixMap.html">
+	c2630 [label=<<table title="org.vorpal.blade.framework.config.ConfigPrefixMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigPrefixMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigPrefixMap </td></tr>
 		</table></td></tr>
@@ -43,11 +43,11 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.ConfigPrefixMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c2576:p -> c2593:p [dir=back,arrowtail=empty];
+	c2613:p -> c2630:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.config.ConfigPrefixMap NAVASSOC org.apache.commons.collections4.trie.PatriciaTrie<E>
-	c2593:p -> c2628:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2630:p -> c2666:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.apache.commons.collections4.trie.PatriciaTrie<E>
-	c2628 [label=<<table title="org.apache.commons.collections4.trie.PatriciaTrie" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c2666 [label=<<table title="org.apache.commons.collections4.trie.PatriciaTrie" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PatriciaTrie&lt;E&gt; </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.commons.collections4.trie </font></td></tr>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.services.options.OptionsCallflow
-	c35 [label=<<table title="org.vorpal.blade.services.options.OptionsCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OptionsCallflow.html">
+	c36 [label=<<table title="org.vorpal.blade.services.options.OptionsCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OptionsCallflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OptionsCallflow </td></tr>
 		</table></td></tr>
@@ -22,9 +22,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.options.OptionsCallflow extends org.vorpal.blade.framework.callflow.Callflow
-	c37:p -> c35:p [dir=back,arrowtail=empty];
+	c38:p -> c36:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c37 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
+	c38 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -65,6 +65,7 @@ digraph G {
 <tr><td align="left" balign="left">  createInitialRequest() </td></tr>
 <tr><td align="left" balign="left">  createRequest() </td></tr>
 <tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  copyHeader() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyHeaders() </td></tr>

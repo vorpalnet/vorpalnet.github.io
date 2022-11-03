@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.Transfer
-	c28 [label=<<table title="org.vorpal.blade.framework.transfer.Transfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Transfer.html">
+	c30 [label=<<table title="org.vorpal.blade.framework.transfer.Transfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Transfer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Transfer </td></tr>
 		</table></td></tr>
@@ -19,11 +19,13 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  createRequests() </td></tr>
+<tr><td align="left" balign="left">  preserveInviteHeaders() </td></tr>
+<tr><td align="left" balign="left">  preserveReferHeaders() </td></tr>
 <tr><td align="left" balign="left">  process() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.TransferListener
-	c31 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferListener.html">
+	c33 [label=<<table title="org.vorpal.blade.framework.transfer.TransferListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferListener </td></tr>
@@ -39,7 +41,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.BlindTransfer
-	c34 [label=<<table title="org.vorpal.blade.framework.transfer.BlindTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindTransfer.html">
+	c36 [label=<<table title="org.vorpal.blade.framework.transfer.BlindTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BlindTransfer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BlindTransfer </td></tr>
 		</table></td></tr>
@@ -51,7 +53,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.AssistedTransfer
-	c36 [label=<<table title="org.vorpal.blade.framework.transfer.AssistedTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedTransfer.html">
+	c38 [label=<<table title="org.vorpal.blade.framework.transfer.AssistedTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AssistedTransfer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AssistedTransfer </td></tr>
 		</table></td></tr>
@@ -63,7 +65,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.transfer.MediaTransfer
-	c38 [label=<<table title="org.vorpal.blade.framework.transfer.MediaTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MediaTransfer.html">
+	c40 [label=<<table title="org.vorpal.blade.framework.transfer.MediaTransfer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MediaTransfer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MediaTransfer </td></tr>
 		</table></td></tr>
@@ -75,17 +77,17 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.transfer.Transfer extends org.vorpal.blade.framework.callflow.Callflow
-	c72:p -> c28:p [dir=back,arrowtail=empty];
+	c77:p -> c30:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.transfer.BlindTransfer extends org.vorpal.blade.framework.transfer.Transfer
-	c28:p -> c34:p [dir=back,arrowtail=empty];
+	c30:p -> c36:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.transfer.AssistedTransfer extends org.vorpal.blade.framework.transfer.Transfer
-	c28:p -> c36:p [dir=back,arrowtail=empty];
+	c30:p -> c38:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.transfer.MediaTransfer extends org.vorpal.blade.framework.transfer.Transfer
-	c28:p -> c38:p [dir=back,arrowtail=empty];
+	c30:p -> c40:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.transfer.Transfer NAVASSOC org.vorpal.blade.framework.transfer.TransferListener
-	c28:p -> c31:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c30:p -> c33:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c72 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
+	c77 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -126,6 +128,7 @@ digraph G {
 <tr><td align="left" balign="left">  createInitialRequest() </td></tr>
 <tr><td align="left" balign="left">  createRequest() </td></tr>
 <tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  copyHeader() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyHeaders() </td></tr>

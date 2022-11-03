@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyServlet
-	c3563 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyServlet.html">
+	c3615 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ProxyServlet </font></td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3567 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyListener.html">
+	c3619 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ProxyListener </td></tr>
@@ -36,7 +36,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyInvite
-	c3568 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyInvite.html">
+	c3620 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyInvite </td></tr>
 		</table></td></tr>
@@ -52,7 +52,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyInvite
-	c3573 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./callflows/ProxyInvite.html">
+	c3625 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./callflows/ProxyInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyInvite </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.deprecated.proxy.callflows </font></td></tr>
@@ -69,10 +69,10 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.deprecated.proxy.ProxyServlet implements org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3567:p -> c3563:p [dir=back,arrowtail=empty,style=dashed];
+	c3619:p -> c3615:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3568:p -> c3567:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3620:p -> c3619:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyInvite NAVASSOC org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3573:p -> c3567:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3625:p -> c3619:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

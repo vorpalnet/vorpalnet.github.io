@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.SettingsManager<T>
-	c1666 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsManager.html">
+	c1690 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SettingsManager&lt;T&gt; </td></tr>
 		</table></td></tr>
@@ -51,7 +51,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.SettingsMXBean
-	c1667 [label=<<table title="org.vorpal.blade.framework.config.SettingsMXBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsMXBean.html">
+	c1691 [label=<<table title="org.vorpal.blade.framework.config.SettingsMXBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsMXBean.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SettingsMXBean </td></tr>
@@ -70,7 +70,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Settings
-	c1668 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Settings.html">
+	c1692 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Settings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Settings </td></tr>
 		</table></td></tr>
@@ -88,10 +88,10 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.Settings implements org.vorpal.blade.framework.config.SettingsMXBean
-	c1667:p -> c1668:p [dir=back,arrowtail=empty,style=dashed];
+	c1691:p -> c1692:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC org.vorpal.blade.framework.config.Settings
-	c1666:p -> c1668:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1690:p -> c1692:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.Settings NAVASSOC org.vorpal.blade.framework.config.SettingsManager<T>
-	c1668:p -> c1666:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1692:p -> c1690:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

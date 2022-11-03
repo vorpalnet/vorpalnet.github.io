@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.proxy.ProxyTier
-	c4463 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.html">
+	c4529 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyTier </td></tr>
 		</table></td></tr>
@@ -30,14 +30,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyTier.Mode
-	c4464 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.Mode.html">
+	c4530 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyRule
-	c4466 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRule.html">
+	c4532 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRule </td></tr>
 		</table></td></tr>
@@ -58,9 +58,26 @@ digraph G {
 <tr><td align="left" balign="left">  setContext() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.proxy.ProxyEndpoint
+	c4535 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyEndpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyEndpoint.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ProxyEndpoint </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getUri() </td></tr>
+<tr><td align="left" balign="left">  setUri() </td></tr>
+<tr><td align="left" balign="left">  getActive() </td></tr>
+<tr><td align="left" balign="left">  setActive() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyTier NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier.Mode
-	c4463:p -> c4464:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4529:p -> c4530:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.proxy.ProxyTier NAVASSOC org.vorpal.blade.framework.proxy.ProxyEndpoint
+	c4529:p -> c4535:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.proxy.ProxyRule NAVASSOC org.vorpal.blade.framework.proxy.ProxyTier
-	c4466:p -> c4463:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4532:p -> c4529:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

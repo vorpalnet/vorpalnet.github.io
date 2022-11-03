@@ -33,6 +33,9 @@ digraph G {
 <tr><td align="left" balign="left">  getSipUtil() </td></tr>
 <tr><td align="left" balign="left">  getTimerService() </td></tr>
 <tr><td align="left" balign="left">  hash() </td></tr>
+<tr><td align="left" balign="left">  getAccountName() </td></tr>
+<tr><td align="left" balign="left">  getAccountName() </td></tr>
+<tr><td align="left" balign="left">  sendResponse() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 }

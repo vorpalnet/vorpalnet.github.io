@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c1393 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c1414 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Translation
-	c1394 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Translation.html">
+	c1415 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Translation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Translation </td></tr>
 		</table></td></tr>
@@ -55,7 +55,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RouterSettings
-	c1399 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterSettings.html">
+	c1420 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RouterSettings </td></tr>
 		</table></td></tr>
@@ -67,7 +67,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigTreeMap
-	c1409 [label=<<table title="org.vorpal.blade.framework.config.ConfigTreeMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigTreeMap.html">
+	c1430 [label=<<table title="org.vorpal.blade.framework.config.ConfigTreeMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigTreeMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigTreeMap </td></tr>
 		</table></td></tr>
@@ -80,7 +80,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap
-	c1411 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLinkedHashMap.html">
+	c1432 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLinkedHashMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigLinkedHashMap </td></tr>
 		</table></td></tr>
@@ -93,7 +93,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigHashMap
-	c1413 [label=<<table title="org.vorpal.blade.framework.config.ConfigHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigHashMap.html">
+	c1434 [label=<<table title="org.vorpal.blade.framework.config.ConfigHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigHashMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigHashMap </td></tr>
 		</table></td></tr>
@@ -106,24 +106,24 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.ConfigTreeMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c1393:p -> c1409:p [dir=back,arrowtail=empty];
+	c1414:p -> c1430:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigLinkedHashMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c1393:p -> c1411:p [dir=back,arrowtail=empty];
+	c1414:p -> c1432:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigHashMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c1393:p -> c1413:p [dir=back,arrowtail=empty];
+	c1414:p -> c1434:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.config.Translation NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1394:p -> c1393:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1415:p -> c1414:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1399:p -> c1393:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1420:p -> c1414:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1399:p -> c1393:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1420:p -> c1414:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Translation
-	c1399:p -> c1394:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1420:p -> c1415:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigTreeMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c1409:p -> c1394:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1430:p -> c1415:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c1411:p -> c1394:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1432:p -> c1415:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigHashMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c1413:p -> c1394:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1434:p -> c1415:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

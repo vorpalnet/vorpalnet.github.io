@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="../../framework/transfer/TransferCondition.html" title="org.vorpal.blade.framework.transfer.TransferCondition" alt="" coords="16,285,181,419"/>
-<area shape="rect" id="node4_1" href="./TransferSettings.TransferStyle.html" title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" alt="" coords="49,477,149,517"/>
-<area shape="rect" id="node2_2" href="./TransferSettingsSample.html" title="org.vorpal.blade.services.transfer.TransferSettingsSample" alt="" coords="227,340,375,364"/>
-<area shape="rect" id="node3_3" href="./TransferSettings.html" title="org.vorpal.blade.services.transfer.TransferSettings" alt="" coords="277,11,448,227"/>
-<area shape="rect" id="node5_4" href="./TransferSettings.LoggingLevel.html" title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" alt="" coords="473,332,573,372"/>
+<area shape="rect" id="node1_0" href="../../framework/transfer/TransferCondition.html" title="org.vorpal.blade.framework.transfer.TransferCondition" alt="" coords="16,317,181,451"/>
+<area shape="rect" id="node4_1" href="./TransferSettings.TransferStyle.html" title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" alt="" coords="49,509,149,549"/>
+<area shape="rect" id="node2_2" href="./TransferSettingsSample.html" title="org.vorpal.blade.services.transfer.TransferSettingsSample" alt="" coords="227,372,375,396"/>
+<area shape="rect" id="node3_3" href="./TransferSettings.html" title="org.vorpal.blade.services.transfer.TransferSettings" alt="" coords="277,11,449,259"/>
+<area shape="rect" id="node5_4" href="./TransferSettings.LoggingLevel.html" title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" alt="" coords="473,364,573,404"/>
 </map>

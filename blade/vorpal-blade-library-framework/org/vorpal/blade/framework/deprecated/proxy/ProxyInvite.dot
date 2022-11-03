@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.callflow.Callflow
-	c3596 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../callflow/Callflow.html">
+	c3649 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -51,6 +51,7 @@ digraph G {
 <tr><td align="left" balign="left">  createInitialRequest() </td></tr>
 <tr><td align="left" balign="left">  createRequest() </td></tr>
 <tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  copyHeader() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyHeaders() </td></tr>
@@ -74,7 +75,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyTier
-	c3624 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.html">
+	c3677 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyTier </td></tr>
 		</table></td></tr>
@@ -91,7 +92,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3630 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyListener.html">
+	c3683 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ProxyListener </td></tr>
@@ -105,7 +106,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyInvite
-	c3631 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyInvite.html">
+	c3684 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyInvite </td></tr>
 		</table></td></tr>
@@ -121,10 +122,10 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.deprecated.proxy.ProxyInvite extends org.vorpal.blade.framework.callflow.Callflow
-	c3596:p -> c3631:p [dir=back,arrowtail=empty];
+	c3649:p -> c3684:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.deprecated.proxy.ProxyListener
-	c3631:p -> c3630:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3684:p -> c3683:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.deprecated.proxy.ProxyTier
-	c3631:p -> c3624:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3684:p -> c3677:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

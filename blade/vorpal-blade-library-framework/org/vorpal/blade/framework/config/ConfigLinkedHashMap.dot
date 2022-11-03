@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c2640 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c2678 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Translation
-	c2641 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
+	c2679 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Translation </td></tr>
 		</table></td></tr>
@@ -55,7 +55,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap
-	c2658 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigLinkedHashMap.html">
+	c2696 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigLinkedHashMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigLinkedHashMap </td></tr>
 		</table></td></tr>
@@ -68,10 +68,10 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.ConfigLinkedHashMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c2640:p -> c2658:p [dir=back,arrowtail=empty];
+	c2678:p -> c2696:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.config.Translation NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c2641:p -> c2640:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2679:p -> c2678:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c2658:p -> c2641:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2696:p -> c2679:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

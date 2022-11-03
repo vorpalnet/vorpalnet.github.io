@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c2703 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c2742 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigIPv4Map
-	c2722 [label=<<table title="org.vorpal.blade.framework.config.ConfigIPv4Map" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigIPv4Map.html">
+	c2761 [label=<<table title="org.vorpal.blade.framework.config.ConfigIPv4Map" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ConfigIPv4Map.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigIPv4Map </td></tr>
 		</table></td></tr>
@@ -43,14 +43,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.AddressMap
-	c2728 [label=<<table title="org.vorpal.blade.framework.config.AddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddressMap.html">
+	c2767 [label=<<table title="org.vorpal.blade.framework.config.AddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddressMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddressMap </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.ConfigIPv4Map extends org.vorpal.blade.framework.config.TranslationsMap
-	c2703:p -> c2722:p [dir=back,arrowtail=empty];
+	c2742:p -> c2761:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.config.ConfigIPv4Map NAVASSOC org.vorpal.blade.framework.config.AddressMap
-	c2722:p -> c2728:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2761:p -> c2767:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

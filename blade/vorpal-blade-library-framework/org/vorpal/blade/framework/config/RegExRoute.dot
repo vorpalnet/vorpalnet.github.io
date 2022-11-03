@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.Selector
-	c1921 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
+	c1949 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Selector </td></tr>
 		</table></td></tr>
@@ -32,12 +32,12 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RegExRoute
-	c1924 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegExRoute.html">
+	c1952 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegExRoute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegExRoute </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RegExRoute NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1924:p -> c1921:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1952:p -> c1949:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

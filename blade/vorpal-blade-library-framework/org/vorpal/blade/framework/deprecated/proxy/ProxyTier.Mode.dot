@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyTier
-	c3246 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.html">
+	c3293 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyTier.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyTier </td></tr>
 		</table></td></tr>
@@ -27,13 +27,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyTier.Mode
-	c3247 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.Mode.html">
+	c3294 [label=<<table title="org.vorpal.blade.framework.deprecated.proxy.ProxyTier.Mode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyTier.Mode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Mode </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.deprecated.proxy.ProxyTier NAVASSOC org.vorpal.blade.framework.deprecated.proxy.ProxyTier.Mode
-	c3246:p -> c3247:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3293:p -> c3294:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

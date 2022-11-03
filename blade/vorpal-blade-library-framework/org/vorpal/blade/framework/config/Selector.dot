@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c1727 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c1752 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Selector
-	c1732 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Selector.html">
+	c1757 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Selector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Selector </td></tr>
 		</table></td></tr>
@@ -52,7 +52,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RouterSettings
-	c1733 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterSettings.html">
+	c1758 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RouterSettings </td></tr>
 		</table></td></tr>
@@ -64,20 +64,20 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RegExRoute
-	c1735 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegExRoute.html">
+	c1760 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegExRoute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegExRoute </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.TranslationsMap NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1727:p -> c1732:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1752:p -> c1757:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1733:p -> c1732:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1758:p -> c1757:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1733:p -> c1727:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1758:p -> c1752:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c1733:p -> c1727:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1758:p -> c1752:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RegExRoute NAVASSOC org.vorpal.blade.framework.config.Selector
-	c1735:p -> c1732:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1760:p -> c1757:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

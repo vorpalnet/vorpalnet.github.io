@@ -1,8 +1,9 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Transfer.html" title="org.vorpal.blade.framework.transfer.Transfer" alt="" coords="255,27,369,115"/>
+<area shape="rect" id="node1_0" href="./Transfer.html" title="org.vorpal.blade.framework.transfer.Transfer" alt="" coords="235,11,389,131"/>
 <area shape="rect" id="node2_1" href="./TransferListener.html" title="org.vorpal.blade.framework.transfer.TransferListener" alt="" coords="16,189,149,325"/>
 <area shape="rect" id="node3_2" href="./BlindTransfer.html" title="org.vorpal.blade.framework.transfer.BlindTransfer" alt="" coords="195,221,285,293"/>
 <area shape="rect" id="node4_3" href="./AssistedTransfer.html" title="org.vorpal.blade.framework.transfer.AssistedTransfer" alt="" coords="331,221,439,293"/>
 <area shape="rect" id="node5_4" href="./MediaTransfer.html" title="org.vorpal.blade.framework.transfer.MediaTransfer" alt="" coords="485,221,581,293"/>
-<area shape="rect" id="node6_5" href="./TransferCondition.html" title="org.vorpal.blade.framework.transfer.TransferCondition" alt="" coords="415,11,531,131"/>
+<area shape="rect" id="node6_5" href="./TransferCondition.html" title="org.vorpal.blade.framework.transfer.TransferCondition" alt="" coords="434,11,550,131"/>
+<area shape="rect" id="node7_6" href="./TransferInitialInvite.html" title="org.vorpal.blade.framework.transfer.TransferInitialInvite" alt="" coords="596,35,716,107"/>
 </map>

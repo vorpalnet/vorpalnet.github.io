@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.services.proxy.balancer.ProxyBalancerServlet
-	c27 [label=<<table title="org.vorpal.blade.services.proxy.balancer.ProxyBalancerServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyBalancerServlet.html">
+	c49 [label=<<table title="org.vorpal.blade.services.proxy.balancer.ProxyBalancerServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyBalancerServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyBalancerServlet </td></tr>
 		</table></td></tr>
@@ -26,11 +26,11 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.proxy.balancer.ProxyBalancerServlet extends org.vorpal.blade.framework.proxy.ProxyServlet
-	c31:p -> c27:p [dir=back,arrowtail=empty];
+	c53:p -> c49:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.services.proxy.balancer.ProxyBalancerServlet DEPEND org.vorpal.blade.framework.proxy.ProxyRule
-	c27:p -> c32:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c49:p -> c54:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.proxy.ProxyRule
-	c32 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyRule.html">
+	c54 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyRule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRule </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.proxy </font></td></tr>
@@ -53,7 +53,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyServlet
-	c31 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyServlet.html">
+	c53 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ProxyServlet </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.proxy </font></td></tr>
