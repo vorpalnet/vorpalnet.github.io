@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.transfer.TransferCondition
-	c183 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
+	c184 [label=<<table title="org.vorpal.blade.framework.transfer.TransferCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../framework/transfer/TransferCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferCondition </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.transfer </font></td></tr>
@@ -26,13 +26,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettingsSample
-	c185 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettingsSample.html">
+	c186 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettingsSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettingsSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettingsSample </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings
-	c186 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.html">
+	c187 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TransferSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransferSettings </td></tr>
 		</table></td></tr>
@@ -52,33 +52,35 @@ digraph G {
 <tr><td align="left" balign="left">  setDefaultTransferStyle() </td></tr>
 <tr><td align="left" balign="left">  getTransferConditions() </td></tr>
 <tr><td align="left" balign="left">  setTransferConditions() </td></tr>
+<tr><td align="left" balign="left">  getAllow() </td></tr>
+<tr><td align="left" balign="left">  setAllow() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c187 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.TransferStyle.html">
+	c188 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.TransferStyle.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> TransferStyle </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c188 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.LoggingLevel.html">
+	c189 [label=<<table title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransferSettings.LoggingLevel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> LoggingLevel </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.services.transfer.TransferSettingsSample extends org.vorpal.blade.services.transfer.TransferSettings
-	c186:p -> c185:p [dir=back,arrowtail=empty];
+	c187:p -> c186:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.transfer.TransferCondition NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c183:p -> c187:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c184:p -> c188:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel
-	c186:p -> c188:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c187:p -> c189:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c186:p -> c187:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c187:p -> c188:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.transfer.TransferSettings NAVASSOC org.vorpal.blade.framework.transfer.TransferCondition
-	c186:p -> c183:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c187:p -> c184:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.transfer.TransferCondition DEPEND org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
-	c183:p -> c187:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c184:p -> c188:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

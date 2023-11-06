@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.test.uas.config.TestUasState
-	c15 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasState.html">
+	c27 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestUasState </td></tr>
 		</table></td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.config.TestUasConfig
-	c16 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasConfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasConfig.html">
+	c28 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasConfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasConfig.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestUasConfig </td></tr>
 		</table></td></tr>
@@ -42,7 +42,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.config.TestUasHeaders
-	c17 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasHeaders" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasHeaders.html">
+	c29 [label=<<table title="org.vorpal.blade.test.uas.config.TestUasHeaders" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestUasHeaders.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestUasHeaders </td></tr>
 		</table></td></tr>
@@ -57,6 +57,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.config.TestUasState NAVASSOC org.vorpal.blade.test.uas.config.TestUasHeaders
-	c15:p -> c17:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c27:p -> c29:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

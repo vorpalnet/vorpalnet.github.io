@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.test.uas.callflows.UasCallflow
-	c7 [label=<<table title="org.vorpal.blade.test.uas.callflows.UasCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UasCallflow.html">
+	c11 [label=<<table title="org.vorpal.blade.test.uas.callflows.UasCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UasCallflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UasCallflow </td></tr>
 		</table></td></tr>
@@ -21,10 +21,60 @@ digraph G {
 <tr><td align="left" balign="left">  process() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.test.uas.callflows.TestNotImplemented
+	c12 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestNotImplemented" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestNotImplemented.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TestNotImplemented </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  process() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.test.uas.callflows.TestReinvite
+	c13 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestReinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestReinvite.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TestReinvite </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  process() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.test.uas.callflows.TestRefer
+	c14 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestRefer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestRefer.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TestRefer </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  process() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.test.uas.callflows.TestInvite
-	c8 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestInvite.html">
+	c15 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TestInvite </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  inSeconds() </td></tr>
+<tr><td align="left" balign="left">  inMilliseconds() </td></tr>
+<tr><td align="left" balign="left">  process() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.test.uas.callflows.TestOkayResponse
+	c16 [label=<<table title="org.vorpal.blade.test.uas.callflows.TestOkayResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestOkayResponse.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TestOkayResponse </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.logging.Logger
-	c436 [label=<<table title="org.vorpal.blade.framework.logging.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.html">
+	c482 [label=<<table title="org.vorpal.blade.framework.logging.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Logger </td></tr>
 		</table></td></tr>
@@ -18,6 +18,11 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getLevel() </td></tr>
+<tr><td align="left" balign="left">  getSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  getConfigurationLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setConfigurationLoggingLevel() </td></tr>
 <tr><td align="left" balign="left">  severe() </td></tr>
 <tr><td align="left" balign="left">  warning() </td></tr>
 <tr><td align="left" balign="left">  fine() </td></tr>
@@ -62,14 +67,75 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.logging.Logger.Direction
-	c437 [label=<<table title="org.vorpal.blade.framework.logging.Logger.Direction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.Direction.html">
+	c483 [label=<<table title="org.vorpal.blade.framework.logging.Logger.Direction" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.Direction.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Direction </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.logging.LogParametersDefault
+	c484 [label=<<table title="org.vorpal.blade.framework.logging.LogParametersDefault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogParametersDefault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogParametersDefault </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.logging.LogParameters
+	c485 [label=<<table title="org.vorpal.blade.framework.logging.LogParameters" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogParameters.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LogParameters </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  getUseParentLogging() </td></tr>
+<tr><td align="left" balign="left">  setUseParentLogging() </td></tr>
+<tr><td align="left" balign="left">  getDirectory() </td></tr>
+<tr><td align="left" balign="left">  setDirectory() </td></tr>
+<tr><td align="left" balign="left">  getFileName() </td></tr>
+<tr><td align="left" balign="left">  setFileName() </td></tr>
+<tr><td align="left" balign="left">  getFileSize() </td></tr>
+<tr><td align="left" balign="left">  setFileSize() </td></tr>
+<tr><td align="left" balign="left">  getFileCount() </td></tr>
+<tr><td align="left" balign="left">  setFileCount() </td></tr>
+<tr><td align="left" balign="left">  getAppendFile() </td></tr>
+<tr><td align="left" balign="left">  setAppendFile() </td></tr>
+<tr><td align="left" balign="left">  getSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  resolveSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  parseLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  getConfigurationLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setConfigurationLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  resolveConfigurationLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  resolveVariables() </td></tr>
+<tr><td align="left" balign="left">  resolveDirectory() </td></tr>
+<tr><td align="left" balign="left">  resolveFilename() </td></tr>
+<tr><td align="left" balign="left">  resolveUseParentLogging() </td></tr>
+<tr><td align="left" balign="left">  resolveFileSize() </td></tr>
+<tr><td align="left" balign="left">  resolveFileCount() </td></tr>
+<tr><td align="left" balign="left">  resolveFileAppend() </td></tr>
+<tr><td align="left" balign="left">  resolveLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  main() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.logging.LogParameters.LoggingLevel
+	c486 [label=<<table title="org.vorpal.blade.framework.logging.LogParameters.LoggingLevel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogParameters.LoggingLevel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> LoggingLevel </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.logging.LogParameters.Unit
+	c487 [label=<<table title="org.vorpal.blade.framework.logging.LogParameters.Unit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogParameters.Unit.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> Unit </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.logging.LogManager
-	c438 [label=<<table title="org.vorpal.blade.framework.logging.LogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogManager.html">
+	c488 [label=<<table title="org.vorpal.blade.framework.logging.LogManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogManager </td></tr>
 		</table></td></tr>
@@ -77,17 +143,20 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  getLogger() </td></tr>
-<tr><td align="left" balign="left">  getLogger() </td></tr>
-<tr><td align="left" balign="left">  getLogger() </td></tr>
-<tr><td align="left" balign="left">  closeLogger() </td></tr>
-<tr><td align="left" balign="left">  closeLogger() </td></tr>
-<tr><td align="left" balign="left">  contextDestroyed() </td></tr>
 <tr><td align="left" balign="left">  contextInitialized() </td></tr>
+<tr><td align="left" balign="left">  contextDestroyed() </td></tr>
+<tr><td align="left" balign="left">  getLogger() </td></tr>
+<tr><td align="left" balign="left">  getLogger() </td></tr>
+<tr><td align="left" balign="left">  getLogger() </td></tr>
+<tr><td align="left" balign="left">  getLogger() </td></tr>
+<tr><td align="left" balign="left">  getLogger() </td></tr>
+<tr><td align="left" balign="left">  closeLogger() </td></tr>
+<tr><td align="left" balign="left">  closeLogger() </td></tr>
+<tr><td align="left" balign="left">  closeLogger() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.logging.LogFormatter
-	c439 [label=<<table title="org.vorpal.blade.framework.logging.LogFormatter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogFormatter.html">
+	c489 [label=<<table title="org.vorpal.blade.framework.logging.LogFormatter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./LogFormatter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LogFormatter </td></tr>
 		</table></td></tr>
@@ -99,10 +168,18 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.logging.ConsoleColors
-	c440 [label=<<table title="org.vorpal.blade.framework.logging.ConsoleColors" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleColors.html">
+	c490 [label=<<table title="org.vorpal.blade.framework.logging.ConsoleColors" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleColors.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConsoleColors </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	//org.vorpal.blade.framework.logging.LogParametersDefault extends org.vorpal.blade.framework.logging.LogParameters
+	c485:p -> c484:p [dir=back,arrowtail=empty];
+	// org.vorpal.blade.framework.logging.LogParameters NAVASSOC org.vorpal.blade.framework.logging.LogParameters.LoggingLevel
+	c485:p -> c486:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.logging.LogParameters NAVASSOC org.vorpal.blade.framework.logging.LogParameters.LoggingLevel
+	c485:p -> c486:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.logging.LogParameters NAVASSOC org.vorpal.blade.framework.logging.LogParameters.LoggingLevel
+	c485:p -> c486:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

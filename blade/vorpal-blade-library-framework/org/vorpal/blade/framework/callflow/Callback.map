@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Callback.html" title="org.vorpal.blade.framework.callflow.Callback" alt="" coords="201,155,305,259"/>
-<area shape="rect" id="node2_1" href="../deprecated/proxy/ProxyReinvite.html" title="org.vorpal.blade.framework.deprecated.proxy.ProxyReinvite" alt="" coords="16,11,221,96"/>
-<area shape="rect" id="node3_2" href="../deprecated/proxy/callflows/ProxyReinvite.html" title="org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyReinvite" alt="" coords="267,11,509,96"/>
+<area shape="rect" id="node1_0" href="./Callback.html" title="org.vorpal.blade.framework.callflow.Callback" alt="" coords="200,154,304,256"/>
+<area shape="rect" id="node2_1" href="../deprecated/proxy/ProxyReinvite.html" title="org.vorpal.blade.framework.deprecated.proxy.ProxyReinvite" alt="" coords="16,11,221,95"/>
+<area shape="rect" id="node3_2" href="../deprecated/proxy/callflows/ProxyReinvite.html" title="org.vorpal.blade.framework.deprecated.proxy.callflows.ProxyReinvite" alt="" coords="266,11,507,95"/>
 </map>

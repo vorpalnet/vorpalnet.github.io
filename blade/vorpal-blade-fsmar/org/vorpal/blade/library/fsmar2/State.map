@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./State.html" title="org.vorpal.blade.library.fsmar2.State" alt="" coords="47,189,131,261"/>
-<area shape="rect" id="node2_1" href="./Trigger.html" title="org.vorpal.blade.library.fsmar2.Trigger" alt="" coords="31,320,147,392"/>
-<area shape="rect" id="node3_2" href="./Configuration.html" title="org.vorpal.blade.library.fsmar2.Configuration" alt="" coords="16,11,161,131"/>
+<area shape="rect" id="node1_0" href="./State.html" title="org.vorpal.blade.library.fsmar2.State" alt="" coords="49,187,133,258"/>
+<area shape="rect" id="node2_1" href="./Trigger.html" title="org.vorpal.blade.library.fsmar2.Trigger" alt="" coords="33,317,149,388"/>
+<area shape="rect" id="node3_2" href="./AppRouterConfiguration.html" title="org.vorpal.blade.library.fsmar2.AppRouterConfiguration" alt="" coords="16,11,166,129"/>
 </map>

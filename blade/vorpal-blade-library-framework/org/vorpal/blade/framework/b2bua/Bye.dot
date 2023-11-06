@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.b2bua.Bye
-	c955 [label=<<table title="org.vorpal.blade.framework.b2bua.Bye" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Bye.html">
+	c1055 [label=<<table title="org.vorpal.blade.framework.b2bua.Bye" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Bye.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Bye </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet
-	c956 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
+	c1056 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> B2buaServlet </font></td></tr>
 		</table></td></tr>
@@ -37,10 +37,14 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callCompleted() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callDeclined() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callAbandoned() </font></td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  getIncomingRequest() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c959 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
+	c1059 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -65,11 +69,16 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  process() </font></td></tr>
 <tr><td align="left" balign="left">  processWrapper() </td></tr>
 <tr><td align="left" balign="left">  schedulePeriodicTimer() </td></tr>
+<tr><td align="left" balign="left">  schedulePeriodicTimerInMilliseconds() </td></tr>
 <tr><td align="left" balign="left">  scheduleTimer() </td></tr>
+<tr><td align="left" balign="left">  scheduleTimerInMilliseconds() </td></tr>
+<tr><td align="left" balign="left">  cancelTimer() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInSerial() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInParallel() </td></tr>
 <tr><td align="left" balign="left">  makeReliable() </td></tr>
 <tr><td align="left" balign="left">  withholdResponse() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>
@@ -105,10 +114,10 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.b2bua.Bye extends org.vorpal.blade.framework.callflow.Callflow
-	c959:p -> c955:p [dir=back,arrowtail=empty];
+	c1059:p -> c1055:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.b2bua.Bye NAVASSOC org.vorpal.blade.framework.b2bua.B2buaServlet
-	c955:p -> c956:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1055:p -> c1056:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet DEPEND org.vorpal.blade.framework.callflow.Callflow
-	c956:p -> c959:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1056:p -> c1059:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

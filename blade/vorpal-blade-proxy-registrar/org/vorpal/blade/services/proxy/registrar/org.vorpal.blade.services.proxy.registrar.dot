@@ -22,6 +22,8 @@ digraph G {
 <tr><td align="left" balign="left">  servletCreated() </td></tr>
 <tr><td align="left" balign="left">  servletDestroyed() </td></tr>
 <tr><td align="left" balign="left">  chooseCallflow() </td></tr>
+<tr><td align="left" balign="left">  proxyRequest() </td></tr>
+<tr><td align="left" balign="left">  proxyResponse() </td></tr>
 <tr><td align="left" balign="left">  sessionCreated() </td></tr>
 <tr><td align="left" balign="left">  sessionDestroyed() </td></tr>
 <tr><td align="left" balign="left">  sessionExpired() </td></tr>
@@ -51,8 +53,14 @@ digraph G {
 <tr><td align="left" balign="left">  getURIContacts() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettingsDefault
+	c2 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettingsDefault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRegistrarSettingsDefault.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ProxyRegistrarSettingsDefault </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.registrar.RegisterCallflow
-	c2 [label=<<table title="org.vorpal.blade.services.proxy.registrar.RegisterCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegisterCallflow.html">
+	c3 [label=<<table title="org.vorpal.blade.services.proxy.registrar.RegisterCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegisterCallflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegisterCallflow </td></tr>
 		</table></td></tr>
@@ -64,7 +72,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.registrar.ProxyCallflow
-	c3 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyCallflow.html">
+	c4 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyCallflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyCallflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyCallflow </td></tr>
 		</table></td></tr>
@@ -76,7 +84,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings
-	c4 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRegistrarSettings.html">
+	c5 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRegistrarSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRegistrarSettings </td></tr>
 		</table></td></tr>
@@ -84,22 +92,43 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  isProxyOnUnregistered() </td></tr>
+<tr><td align="left" balign="left">  apply() </td></tr>
+<tr><td align="left" balign="left">  getDefaultAllow() </td></tr>
+<tr><td align="left" balign="left">  setDefaultAllow() </td></tr>
+<tr><td align="left" balign="left">  getProxyOnUnregistered() </td></tr>
 <tr><td align="left" balign="left">  setProxyOnUnregistered() </td></tr>
+<tr><td align="left" balign="left">  getAddToPath() </td></tr>
+<tr><td align="left" balign="left">  setAddToPath() </td></tr>
+<tr><td align="left" balign="left">  getFlow() </td></tr>
+<tr><td align="left" balign="left">  setFlow() </td></tr>
+<tr><td align="left" balign="left">  getNoCancel() </td></tr>
+<tr><td align="left" balign="left">  setNoCancel() </td></tr>
+<tr><td align="left" balign="left">  getOutboundInterfaceAddress() </td></tr>
+<tr><td align="left" balign="left">  setOutboundInterfaceAddress() </td></tr>
+<tr><td align="left" balign="left">  getOutboundInterfaceSocketAddress() </td></tr>
+<tr><td align="left" balign="left">  setOutboundInterfaceSocketAddress() </td></tr>
+<tr><td align="left" balign="left">  getParallel() </td></tr>
+<tr><td align="left" balign="left">  setParallel() </td></tr>
 <tr><td align="left" balign="left">  getProxyTimeout() </td></tr>
 <tr><td align="left" balign="left">  setProxyTimeout() </td></tr>
+<tr><td align="left" balign="left">  getRecordRoute() </td></tr>
+<tr><td align="left" balign="left">  setRecordRoute() </td></tr>
+<tr><td align="left" balign="left">  getRecurse() </td></tr>
+<tr><td align="left" balign="left">  setRecurse() </td></tr>
+<tr><td align="left" balign="left">  getSupervised() </td></tr>
+<tr><td align="left" balign="left">  setSupervised() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	//org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettingsDefault extends org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings
+	c5:p -> c2:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.services.proxy.registrar.ProxyRegistrar NAVASSOC org.vorpal.blade.services.proxy.registrar.ProxyRegistrar.ContactInfo
-	c1:p -> c5:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1:p -> c6:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.proxy.registrar.RegisterCallflow NAVASSOC org.vorpal.blade.services.proxy.registrar.ProxyRegistrar
-	c2:p -> c1:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3:p -> c1:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.proxy.registrar.RegisterCallflow NAVASSOC org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings
-	c2:p -> c4:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.services.proxy.registrar.ProxyCallflow NAVASSOC org.vorpal.blade.services.proxy.registrar.ProxyRegistrarSettings
-	c3:p -> c4:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3:p -> c5:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.services.proxy.registrar.ProxyRegistrar.ContactInfo
-	c5 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrar.ContactInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/services/proxy/registrar/ProxyRegistrar/ContactInfo.html">
+	c6 [label=<<table title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrar.ContactInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/services/proxy/registrar/ProxyRegistrar/ContactInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ContactInfo </td></tr>
 		</table></td></tr>

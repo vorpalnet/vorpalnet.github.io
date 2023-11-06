@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./MessageResponse.html" title="org.vorpal.blade.test.client.MessageResponse" alt="" coords="16,81,139,105"/>
+<area shape="rect" id="node2_1" href="./MessageSession.html" title="org.vorpal.blade.test.client.MessageSession" alt="" coords="184,11,318,176"/>
+<area shape="rect" id="node3_2" href="./TestClientConfigDefault.html" title="org.vorpal.blade.test.client.TestClientConfigDefault" alt="" coords="343,241,489,265"/>
+<area shape="rect" id="node4_3" href="./Header.html" title="org.vorpal.blade.test.client.Header" alt="" coords="542,241,600,265"/>
+<area shape="rect" id="node5_4" href="./TestClientAPI.html" title="org.vorpal.blade.test.client.TestClientAPI" alt="" coords="673,50,762,137"/>
+<area shape="rect" id="node6_5" href="./MessageRequest.html" title="org.vorpal.blade.test.client.MessageRequest" alt="" coords="514,81,627,105"/>
+<area shape="rect" id="node7_6" href="./TestClientConfig.html" title="org.vorpal.blade.test.client.TestClientConfig" alt="" coords="363,81,469,105"/>
+<area shape="rect" id="node8_7" href="./TestClientBye.html" title="org.vorpal.blade.test.client.TestClientBye" alt="" coords="808,58,899,129"/>
+<area shape="rect" id="node9_8" href="./TestClientServlet.html" title="org.vorpal.blade.test.client.TestClientServlet" alt="" coords="944,42,1064,144"/>
+</map>

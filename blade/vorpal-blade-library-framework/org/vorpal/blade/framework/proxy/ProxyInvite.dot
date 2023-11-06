@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.callflow.Callflow
-	c4801 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
+	c5874 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -35,11 +35,16 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  process() </font></td></tr>
 <tr><td align="left" balign="left">  processWrapper() </td></tr>
 <tr><td align="left" balign="left">  schedulePeriodicTimer() </td></tr>
+<tr><td align="left" balign="left">  schedulePeriodicTimerInMilliseconds() </td></tr>
 <tr><td align="left" balign="left">  scheduleTimer() </td></tr>
+<tr><td align="left" balign="left">  scheduleTimerInMilliseconds() </td></tr>
+<tr><td align="left" balign="left">  cancelTimer() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInSerial() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInParallel() </td></tr>
 <tr><td align="left" balign="left">  makeReliable() </td></tr>
 <tr><td align="left" balign="left">  withholdResponse() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>
@@ -74,10 +79,10 @@ digraph G {
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.proxy.ProxyRule
-	c4852 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyRule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRule.html">
+	// org.vorpal.blade.framework.proxy.ProxyPlan
+	c5933 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyPlan" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyPlan.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProxyRule </td></tr>
+<tr><td align="center" balign="center"> ProxyPlan </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
@@ -97,7 +102,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyListener
-	c4853 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyListener.html">
+	c5934 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ProxyListener </td></tr>
@@ -111,7 +116,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.proxy.ProxyInvite
-	c4854 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyInvite.html">
+	c5935 [label=<<table title="org.vorpal.blade.framework.proxy.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProxyInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyInvite </td></tr>
 		</table></td></tr>
@@ -123,12 +128,12 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.proxy.ProxyInvite extends org.vorpal.blade.framework.callflow.Callflow
-	c4801:p -> c4854:p [dir=back,arrowtail=empty];
+	c5874:p -> c5935:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.proxy.ProxyListener
-	c4854:p -> c4853:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.proxy.ProxyRule
-	c4854:p -> c4852:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.callflow.Callflow DEPEND org.vorpal.blade.framework.proxy.ProxyRule
-	c4801:p -> c4852:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5935:p -> c5934:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.proxy.ProxyInvite NAVASSOC org.vorpal.blade.framework.proxy.ProxyPlan
+	c5935:p -> c5933:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.callflow.Callflow DEPEND org.vorpal.blade.framework.proxy.ProxyPlan
+	c5874:p -> c5933:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

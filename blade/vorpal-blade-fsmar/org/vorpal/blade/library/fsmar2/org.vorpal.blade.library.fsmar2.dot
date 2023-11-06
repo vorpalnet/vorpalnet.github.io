@@ -45,18 +45,15 @@ digraph G {
 <tr><td align="left" balign="left">  createTransition() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.library.fsmar2.Configuration
-	c3 [label=<<table title="org.vorpal.blade.library.fsmar2.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+	// org.vorpal.blade.library.fsmar2.AppRouterConfigurationSample
+	c3 [label=<<table title="org.vorpal.blade.library.fsmar2.AppRouterConfigurationSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppRouterConfigurationSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Configuration </td></tr>
+<tr><td align="center" balign="center"> AppRouterConfigurationSample </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  getPrevious() </td></tr>
-<tr><td align="left" balign="left">  getDefaultApplication() </td></tr>
-<tr><td align="left" balign="left">  setDefaultApplication() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
@@ -109,13 +106,30 @@ digraph G {
 <tr><td align="left" balign="left">  setId() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.library.fsmar2.AppRouterConfiguration
+	c7 [label=<<table title="org.vorpal.blade.library.fsmar2.AppRouterConfiguration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AppRouterConfiguration.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AppRouterConfiguration </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getPrevious() </td></tr>
+<tr><td align="left" balign="left">  getDefaultApplication() </td></tr>
+<tr><td align="left" balign="left">  setDefaultApplication() </td></tr>
+<tr><td align="left" balign="left">  main() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	//org.vorpal.blade.library.fsmar2.AppRouterConfigurationSample extends org.vorpal.blade.library.fsmar2.AppRouterConfiguration
+	c7:p -> c3:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.library.fsmar2.State NAVASSOC org.vorpal.blade.library.fsmar2.Trigger
 	c0:p -> c2:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.library.fsmar2.Trigger NAVASSOC org.vorpal.blade.library.fsmar2.Transition
 	c2:p -> c6:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.library.fsmar2.Configuration NAVASSOC org.vorpal.blade.library.fsmar2.State
-	c3:p -> c0:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.library.fsmar2.Transition NAVASSOC org.vorpal.blade.library.fsmar2.Action
 	c6:p -> c1:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.library.fsmar2.AppRouterConfiguration NAVASSOC org.vorpal.blade.library.fsmar2.State
+	c7:p -> c0:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

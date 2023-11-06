@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.SettingsManager<T>
-	c1480 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SettingsManager.html">
+	c1636 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SettingsManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SettingsManager&lt;T&gt; </td></tr>
 		</table></td></tr>
@@ -51,7 +51,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Settings
-	c1482 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Settings.html">
+	c1638 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Settings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Settings </td></tr>
 		</table></td></tr>
@@ -69,7 +69,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.logging.Logger
-	c1519 [label=<<table title="org.vorpal.blade.framework.logging.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../logging/Logger.html">
+	c1679 [label=<<table title="org.vorpal.blade.framework.logging.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../logging/Logger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Logger </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.logging </font></td></tr>
@@ -78,6 +78,11 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getLevel() </td></tr>
+<tr><td align="left" balign="left">  getSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setSequenceDiagramLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  getConfigurationLoggingLevel() </td></tr>
+<tr><td align="left" balign="left">  setConfigurationLoggingLevel() </td></tr>
 <tr><td align="left" balign="left">  severe() </td></tr>
 <tr><td align="left" balign="left">  warning() </td></tr>
 <tr><td align="left" balign="left">  fine() </td></tr>
@@ -122,27 +127,27 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC com.fasterxml.jackson.databind.ObjectMapper
-	c1480:p -> c1605:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1767:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC org.vorpal.blade.framework.config.Settings
-	c1480:p -> c1482:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1638:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC com.fasterxml.jackson.databind.JsonNode
-	c1480:p -> c1612:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC com.fasterxml.jackson.databind.JsonNode
-	c1480:p -> c1612:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC com.fasterxml.jackson.databind.JsonNode
-	c1480:p -> c1612:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC com.fasterxml.jackson.databind.JsonNode
-	c1480:p -> c1612:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1636:p -> c1774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.Settings NAVASSOC org.vorpal.blade.framework.config.SettingsManager<T>
-	c1482:p -> c1480:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1638:p -> c1636:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> DEPEND com.fasterxml.jackson.databind.ObjectMapper
-	c1480:p -> c1605:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// org.vorpal.blade.framework.config.SettingsManager<T> DEPEND com.fasterxml.jackson.databind.JsonNode
-	c1480:p -> c1612:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1636:p -> c1767:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.vorpal.blade.framework.config.SettingsManager<T> DEPEND org.vorpal.blade.framework.logging.Logger
-	c1480:p -> c1519:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1636:p -> c1679:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// org.vorpal.blade.framework.config.SettingsManager<T> DEPEND com.fasterxml.jackson.databind.JsonNode
+	c1636:p -> c1774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.fasterxml.jackson.databind.JsonNode
-	c1612 [label=<<table title="com.fasterxml.jackson.databind.JsonNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c1774 [label=<<table title="com.fasterxml.jackson.databind.JsonNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> JsonNode </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.databind </font></td></tr>
@@ -240,7 +245,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// com.fasterxml.jackson.databind.ObjectMapper
-	c1605 [label=<<table title="com.fasterxml.jackson.databind.ObjectMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c1767 [label=<<table title="com.fasterxml.jackson.databind.ObjectMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ObjectMapper </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.databind </font></td></tr>

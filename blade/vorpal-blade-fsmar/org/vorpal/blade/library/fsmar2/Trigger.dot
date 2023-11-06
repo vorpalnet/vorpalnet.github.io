@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.library.fsmar2.State
-	c41 [label=<<table title="org.vorpal.blade.library.fsmar2.State" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./State.html">
+	c45 [label=<<table title="org.vorpal.blade.library.fsmar2.State" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./State.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> State </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.library.fsmar2.Trigger
-	c43 [label=<<table title="org.vorpal.blade.library.fsmar2.Trigger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Trigger.html">
+	c47 [label=<<table title="org.vorpal.blade.library.fsmar2.Trigger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Trigger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Trigger </td></tr>
 		</table></td></tr>
@@ -34,7 +34,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.library.fsmar2.Transition
-	c47 [label=<<table title="org.vorpal.blade.library.fsmar2.Transition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transition.html">
+	c51 [label=<<table title="org.vorpal.blade.library.fsmar2.Transition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Transition </td></tr>
 		</table></td></tr>
@@ -53,8 +53,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.library.fsmar2.State NAVASSOC org.vorpal.blade.library.fsmar2.Trigger
-	c41:p -> c43:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c45:p -> c47:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.library.fsmar2.Trigger NAVASSOC org.vorpal.blade.library.fsmar2.Transition
-	c43:p -> c47:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c47:p -> c51:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -36,6 +36,8 @@ digraph G {
 <tr><td align="left" balign="left">  setDefaultTransferStyle() </td></tr>
 <tr><td align="left" balign="left">  getTransferConditions() </td></tr>
 <tr><td align="left" balign="left">  setTransferConditions() </td></tr>
+<tr><td align="left" balign="left">  getAllow() </td></tr>
+<tr><td align="left" balign="left">  setAllow() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettings.TransferStyle
@@ -74,6 +76,8 @@ digraph G {
 <tr><td align="left" balign="left">  callCompleted() </td></tr>
 <tr><td align="left" balign="left">  callDeclined() </td></tr>
 <tr><td align="left" balign="left">  callAbandoned() </td></tr>
+<tr><td align="left" balign="left">  getSettingsManager() </td></tr>
+<tr><td align="left" balign="left">  setSettingsManager() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.transfer.TransferSettingsManager

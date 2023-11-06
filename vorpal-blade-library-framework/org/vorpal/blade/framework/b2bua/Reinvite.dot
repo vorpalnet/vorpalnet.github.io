@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.b2bua.Reinvite
-	c445 [label=<<table title="org.vorpal.blade.framework.b2bua.Reinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reinvite.html">
+	c767 [label=<<table title="org.vorpal.blade.framework.b2bua.Reinvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Reinvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Reinvite </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet
-	c450 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
+	c772 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> B2buaServlet </font></td></tr>
 		</table></td></tr>
@@ -37,10 +37,14 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callCompleted() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callDeclined() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  callAbandoned() </font></td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  doNotProcess() </td></tr>
+<tr><td align="left" balign="left">  getIncomingRequest() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c452 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
+	c775 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -65,19 +69,28 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  process() </font></td></tr>
 <tr><td align="left" balign="left">  processWrapper() </td></tr>
 <tr><td align="left" balign="left">  schedulePeriodicTimer() </td></tr>
+<tr><td align="left" balign="left">  schedulePeriodicTimerInMilliseconds() </td></tr>
 <tr><td align="left" balign="left">  scheduleTimer() </td></tr>
+<tr><td align="left" balign="left">  scheduleTimerInMilliseconds() </td></tr>
+<tr><td align="left" balign="left">  cancelTimer() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInSerial() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInParallel() </td></tr>
 <tr><td align="left" balign="left">  makeReliable() </td></tr>
+<tr><td align="left" balign="left">  withholdResponse() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>
 <tr><td align="left" balign="left">  setSipFactory() </td></tr>
 <tr><td align="left" balign="left">  setSipUtil() </td></tr>
+<tr><td align="left" balign="left">  createContinueRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewRequest() </td></tr>
 <tr><td align="left" balign="left">  createInitialRequest() </td></tr>
 <tr><td align="left" balign="left">  createRequest() </td></tr>
 <tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  copyHeader() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyContent() </td></tr>
 <tr><td align="left" balign="left">  copyHeaders() </td></tr>
@@ -88,14 +101,23 @@ digraph G {
 <tr><td align="left" balign="left">  unlinkSessions() </td></tr>
 <tr><td align="left" balign="left">  getLinkedSession() </td></tr>
 <tr><td align="left" balign="left">  processLater() </td></tr>
+<tr><td align="left" balign="left">  createResponse() </td></tr>
+<tr><td align="left" balign="left">  createAcknowlegement() </td></tr>
+<tr><td align="left" balign="left">  createInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createNewInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createContinueInitialRequest() </td></tr>
+<tr><td align="left" balign="left">  createRequest() </td></tr>
+<tr><td align="left" balign="left">  copyParameters() </td></tr>
+<tr><td align="left" balign="left">  proxyRequest() </td></tr>
 <tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.b2bua.Reinvite extends org.vorpal.blade.framework.callflow.Callflow
-	c452:p -> c445:p [dir=back,arrowtail=empty];
+	c775:p -> c767:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.b2bua.Reinvite NAVASSOC org.vorpal.blade.framework.b2bua.B2buaServlet
-	c445:p -> c450:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c767:p -> c772:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.b2bua.B2buaServlet DEPEND org.vorpal.blade.framework.callflow.Callflow
-	c450:p -> c452:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c772:p -> c775:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

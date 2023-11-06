@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./Action.html" title="org.vorpal.blade.library.fsmar2.Action" alt="" coords="16,407,136,479"/>
-<area shape="rect" id="node2_1" href="./Trigger.html" title="org.vorpal.blade.library.fsmar2.Trigger" alt="" coords="110,11,226,83"/>
-<area shape="rect" id="node3_2" href="./Transition.html" title="org.vorpal.blade.library.fsmar2.Transition" alt="" coords="110,141,226,325"/>
-<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/config/Condition.html" title="org.vorpal.blade.framework.config.Condition" alt="" coords="182,384,341,501"/>
+<area shape="rect" id="node1_0" href="./Action.html" title="org.vorpal.blade.library.fsmar2.Action" alt="" coords="16,418,135,489"/>
+<area shape="rect" id="node2_1" href="./Trigger.html" title="org.vorpal.blade.library.fsmar2.Trigger" alt="" coords="110,11,225,82"/>
+<area shape="rect" id="node3_2" href="./Transition.html" title="org.vorpal.blade.library.fsmar2.Transition" alt="" coords="110,140,225,321"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/config/Condition.html" title="org.vorpal.blade.framework.config.Condition" alt="" coords="181,380,338,527"/>
 </map>

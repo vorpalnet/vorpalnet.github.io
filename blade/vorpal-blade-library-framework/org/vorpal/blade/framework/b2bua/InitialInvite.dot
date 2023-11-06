@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.b2bua.InitialInvite
-	c825 [label=<<table title="org.vorpal.blade.framework.b2bua.InitialInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InitialInvite.html">
+	c911 [label=<<table title="org.vorpal.blade.framework.b2bua.InitialInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InitialInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InitialInvite </td></tr>
 		</table></td></tr>
@@ -23,7 +23,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.b2bua.B2buaListener
-	c829 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaListener.html">
+	c915 [label=<<table title="org.vorpal.blade.framework.b2bua.B2buaListener" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./B2buaListener.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> B2buaListener </td></tr>
@@ -41,7 +41,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.callflow.Callflow
-	c831 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
+	c917 [label=<<table title="org.vorpal.blade.framework.callflow.Callflow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../callflow/Callflow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Callflow </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.vorpal.blade.framework.callflow </font></td></tr>
@@ -66,11 +66,16 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  process() </font></td></tr>
 <tr><td align="left" balign="left">  processWrapper() </td></tr>
 <tr><td align="left" balign="left">  schedulePeriodicTimer() </td></tr>
+<tr><td align="left" balign="left">  schedulePeriodicTimerInMilliseconds() </td></tr>
 <tr><td align="left" balign="left">  scheduleTimer() </td></tr>
+<tr><td align="left" balign="left">  scheduleTimerInMilliseconds() </td></tr>
+<tr><td align="left" balign="left">  cancelTimer() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  expectRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
 <tr><td align="left" balign="left">  sendRequest() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInSerial() </td></tr>
+<tr><td align="left" balign="left">  sendRequestsInParallel() </td></tr>
 <tr><td align="left" balign="left">  makeReliable() </td></tr>
 <tr><td align="left" balign="left">  withholdResponse() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>
@@ -106,8 +111,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.b2bua.InitialInvite extends org.vorpal.blade.framework.callflow.Callflow
-	c831:p -> c825:p [dir=back,arrowtail=empty];
+	c917:p -> c911:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.b2bua.InitialInvite NAVASSOC org.vorpal.blade.framework.b2bua.B2buaListener
-	c825:p -> c829:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c911:p -> c915:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

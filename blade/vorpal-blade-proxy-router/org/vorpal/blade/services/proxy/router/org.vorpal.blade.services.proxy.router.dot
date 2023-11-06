@@ -9,26 +9,32 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// org.vorpal.blade.services.proxy.router.ProxyRouterConfig
-	c0 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyRouterConfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRouterConfig.html">
+	// org.vorpal.blade.services.proxy.router.MediaHubConfigSample
+	c0 [label=<<table title="org.vorpal.blade.services.proxy.router.MediaHubConfigSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MediaHubConfigSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ProxyRouterConfig </td></tr>
+<tr><td align="center" balign="center"> MediaHubConfigSample </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.services.proxy.router.TestRegEx
+	c1 [label=<<table title="org.vorpal.blade.services.proxy.router.TestRegEx" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TestRegEx.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TestRegEx </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  findRoute() </td></tr>
+<tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample
-	c1 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRouterConfigSample.html">
+	c2 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRouterConfigSample.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRouterConfigSample </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.router.ProxyInvite
-	c2 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyInvite.html">
+	c3 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyInvite" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyInvite.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyInvite </td></tr>
 		</table></td></tr>
@@ -40,7 +46,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.services.proxy.router.ProxyRouterSipServlet
-	c3 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyRouterSipServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRouterSipServlet.html">
+	c4 [label=<<table title="org.vorpal.blade.services.proxy.router.ProxyRouterSipServlet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyRouterSipServlet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyRouterSipServlet </td></tr>
 		</table></td></tr>
@@ -54,7 +60,5 @@ digraph G {
 <tr><td align="left" balign="left">  proxyResponse() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	//org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample extends org.vorpal.blade.services.proxy.router.ProxyRouterConfig
-	c0:p -> c1:p [dir=back,arrowtail=empty];
 }
 

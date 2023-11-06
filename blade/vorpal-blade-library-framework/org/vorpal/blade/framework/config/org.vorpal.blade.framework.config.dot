@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.TranslationsMap
-	c203 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
+	c224 [label=<<table title="org.vorpal.blade.framework.config.TranslationsMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TranslationsMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TranslationsMap </font></td></tr>
 		</table></td></tr>
@@ -20,17 +20,19 @@ digraph G {
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  createTranslation() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  lookup() </font></td></tr>
+<tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  size() </font></td></tr>
 <tr><td align="left" balign="left">  applyTranslations() </td></tr>
 <tr><td align="left" balign="left">  getId() </td></tr>
 <tr><td align="left" balign="left">  setId() </td></tr>
 <tr><td align="left" balign="left">  getDescription() </td></tr>
 <tr><td align="left" balign="left">  setDescription() </td></tr>
-<tr><td align="left" balign="left">  getSelector() </td></tr>
-<tr><td align="left" balign="left">  setSelector() </td></tr>
+<tr><td align="left" balign="left">  getSelectors() </td></tr>
+<tr><td align="left" balign="left">  setSelectors() </td></tr>
+<tr><td align="left" balign="left">  addSelector() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Translation
-	c204 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
+	c225 [label=<<table title="org.vorpal.blade.framework.config.Translation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Translation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Translation </td></tr>
 		</table></td></tr>
@@ -52,10 +54,14 @@ digraph G {
 <tr><td align="left" balign="left">  setRouteBack() </td></tr>
 <tr><td align="left" balign="left">  getRouteFinal() </td></tr>
 <tr><td align="left" balign="left">  setRouteFinal() </td></tr>
+<tr><td align="left" balign="left">  getAttributes() </td></tr>
+<tr><td align="left" balign="left">  setAttributes() </td></tr>
+<tr><td align="left" balign="left">  addAttribute() </td></tr>
+<tr><td align="left" balign="left">  getAttribute() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.SettingsManager<T>
-	c205 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsManager.html">
+	c226 [label=<<table title="org.vorpal.blade.framework.config.SettingsManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SettingsManager&lt;T&gt; </td></tr>
 		</table></td></tr>
@@ -96,7 +102,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.SettingsMXBean
-	c206 [label=<<table title="org.vorpal.blade.framework.config.SettingsMXBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsMXBean.html">
+	c227 [label=<<table title="org.vorpal.blade.framework.config.SettingsMXBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SettingsMXBean.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SettingsMXBean </td></tr>
@@ -115,7 +121,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Settings
-	c207 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Settings.html">
+	c228 [label=<<table title="org.vorpal.blade.framework.config.Settings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Settings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Settings </td></tr>
 		</table></td></tr>
@@ -132,8 +138,45 @@ digraph G {
 <tr><td align="left" balign="left">  setServerJson() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.config.ServerPool
+	c229 [label=<<table title="org.vorpal.blade.framework.config.ServerPool" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServerPool.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ServerPool </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getId() </td></tr>
+<tr><td align="left" balign="left">  setId() </td></tr>
+<tr><td align="left" balign="left">  createServerPair() </td></tr>
+<tr><td align="left" balign="left">  createServerPair() </td></tr>
+<tr><td align="left" balign="left">  getServerPairs() </td></tr>
+<tr><td align="left" balign="left">  setServerPairs() </td></tr>
+<tr><td align="left" balign="left">  getDescription() </td></tr>
+<tr><td align="left" balign="left">  setDescription() </td></tr>
+<tr><td align="left" balign="left">  selectRandomServerPairs() </td></tr>
+<tr><td align="left" balign="left">  getConnectionAttempts() </td></tr>
+<tr><td align="left" balign="left">  setConnectionAttempts() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.config.ServerPair
+	c230 [label=<<table title="org.vorpal.blade.framework.config.ServerPair" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServerPair.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ServerPair </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getPrimary() </td></tr>
+<tr><td align="left" balign="left">  setPrimary() </td></tr>
+<tr><td align="left" balign="left">  getSecondary() </td></tr>
+<tr><td align="left" balign="left">  setSecondary() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Selector
-	c208 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
+	c231 [label=<<table title="org.vorpal.blade.framework.config.Selector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Selector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Selector </td></tr>
 		</table></td></tr>
@@ -152,22 +195,25 @@ digraph G {
 <tr><td align="left" balign="left">  getPattern() </td></tr>
 <tr><td align="left" balign="left">  setPattern() </td></tr>
 <tr><td align="left" balign="left">  findKey() </td></tr>
+<tr><td align="left" balign="left">  main() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
-	// org.vorpal.blade.framework.config.RouterSettings
-	c209 [label=<<table title="org.vorpal.blade.framework.config.RouterSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterSettings.html">
+	// org.vorpal.blade.framework.config.RouterConfig
+	c232 [label=<<table title="org.vorpal.blade.framework.config.RouterConfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RouterConfig.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> RouterSettings </td></tr>
+<tr><td align="center" balign="center"> RouterConfig </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  applyRoutes() </td></tr>
+<tr><td align="left" balign="left">  applyParameters() </td></tr>
+<tr><td align="left" balign="left">  findTranslation() </td></tr>
+<tr><td align="left" balign="left">  findRoute() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RequestCondition
-	c210 [label=<<table title="org.vorpal.blade.framework.config.RequestCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestCondition.html">
+	c233 [label=<<table title="org.vorpal.blade.framework.config.RequestCondition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestCondition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> RequestCondition </td></tr>
@@ -180,13 +226,28 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.RegExRoute
-	c211 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegExRoute.html">
+	c234 [label=<<table title="org.vorpal.blade.framework.config.RegExRoute" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RegExRoute.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegExRoute </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.config.NameValuePair<Name, Value>
+	c235 [label=<<table title="org.vorpal.blade.framework.config.NameValuePair" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NameValuePair.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> NameValuePair&lt;Name, Value&gt; </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getName() </td></tr>
+<tr><td align="left" balign="left">  setName() </td></tr>
+<tr><td align="left" balign="left">  getValue() </td></tr>
+<tr><td align="left" balign="left">  setValue() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonUriSerializer
-	c212 [label=<<table title="org.vorpal.blade.framework.config.JsonUriSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonUriSerializer.html">
+	c236 [label=<<table title="org.vorpal.blade.framework.config.JsonUriSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonUriSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonUriSerializer </td></tr>
 		</table></td></tr>
@@ -195,10 +256,11 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  serialize() </td></tr>
+<tr><td align="left" balign="left">  acceptJsonFormatVisitor() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonUriDeserializer
-	c213 [label=<<table title="org.vorpal.blade.framework.config.JsonUriDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonUriDeserializer.html">
+	c237 [label=<<table title="org.vorpal.blade.framework.config.JsonUriDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonUriDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonUriDeserializer </td></tr>
 		</table></td></tr>
@@ -210,7 +272,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonIPAddressSerializer
-	c214 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonIPAddressSerializer.html">
+	c238 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonIPAddressSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonIPAddressSerializer </td></tr>
 		</table></td></tr>
@@ -219,10 +281,11 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  serialize() </td></tr>
+<tr><td align="left" balign="left">  acceptJsonFormatVisitor() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer
-	c215 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonIPAddressDeserializer.html">
+	c239 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonIPAddressDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonIPAddressDeserializer </td></tr>
 		</table></td></tr>
@@ -234,7 +297,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonAddressSerializer
-	c216 [label=<<table title="org.vorpal.blade.framework.config.JsonAddressSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonAddressSerializer.html">
+	c240 [label=<<table title="org.vorpal.blade.framework.config.JsonAddressSerializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonAddressSerializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonAddressSerializer </td></tr>
 		</table></td></tr>
@@ -243,10 +306,11 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  serialize() </td></tr>
+<tr><td align="left" balign="left">  acceptJsonFormatVisitor() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.JsonAddressDeserializer
-	c217 [label=<<table title="org.vorpal.blade.framework.config.JsonAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonAddressDeserializer.html">
+	c241 [label=<<table title="org.vorpal.blade.framework.config.JsonAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JsonAddressDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonAddressDeserializer </td></tr>
 		</table></td></tr>
@@ -258,7 +322,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.InetAddressKeyDeserializer
-	c218 [label=<<table title="org.vorpal.blade.framework.config.InetAddressKeyDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InetAddressKeyDeserializer.html">
+	c242 [label=<<table title="org.vorpal.blade.framework.config.InetAddressKeyDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InetAddressKeyDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InetAddressKeyDeserializer </td></tr>
 		</table></td></tr>
@@ -269,8 +333,21 @@ digraph G {
 <tr><td align="left" balign="left">  deserializeKey() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
+	// org.vorpal.blade.framework.config.Configuration
+	c243 [label=<<table title="org.vorpal.blade.framework.config.Configuration" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Configuration.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Configuration </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getLogging() </td></tr>
+<tr><td align="left" balign="left">  setLogging() </td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigTreeMap
-	c219 [label=<<table title="org.vorpal.blade.framework.config.ConfigTreeMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigTreeMap.html">
+	c244 [label=<<table title="org.vorpal.blade.framework.config.ConfigTreeMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigTreeMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigTreeMap </td></tr>
 		</table></td></tr>
@@ -278,12 +355,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigPrefixMap
-	c220 [label=<<table title="org.vorpal.blade.framework.config.ConfigPrefixMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigPrefixMap.html">
+	c245 [label=<<table title="org.vorpal.blade.framework.config.ConfigPrefixMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigPrefixMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigPrefixMap </td></tr>
 		</table></td></tr>
@@ -291,12 +369,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap
-	c221 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLinkedHashMap.html">
+	c246 [label=<<table title="org.vorpal.blade.framework.config.ConfigLinkedHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLinkedHashMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigLinkedHashMap </td></tr>
 		</table></td></tr>
@@ -304,12 +383,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigIPv4Map
-	c222 [label=<<table title="org.vorpal.blade.framework.config.ConfigIPv4Map" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigIPv4Map.html">
+	c247 [label=<<table title="org.vorpal.blade.framework.config.ConfigIPv4Map" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigIPv4Map.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigIPv4Map </td></tr>
 		</table></td></tr>
@@ -317,12 +397,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigHashMap
-	c223 [label=<<table title="org.vorpal.blade.framework.config.ConfigHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigHashMap.html">
+	c248 [label=<<table title="org.vorpal.blade.framework.config.ConfigHashMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigHashMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigHashMap </td></tr>
 		</table></td></tr>
@@ -330,12 +411,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ConfigAddressMap
-	c224 [label=<<table title="org.vorpal.blade.framework.config.ConfigAddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigAddressMap.html">
+	c249 [label=<<table title="org.vorpal.blade.framework.config.ConfigAddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigAddressMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigAddressMap </td></tr>
 		</table></td></tr>
@@ -343,12 +425,13 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  size() </td></tr>
 <tr><td align="left" balign="left">  createTranslation() </td></tr>
 <tr><td align="left" balign="left">  lookup() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Condition
-	c225 [label=<<table title="org.vorpal.blade.framework.config.Condition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Condition.html">
+	c250 [label=<<table title="org.vorpal.blade.framework.config.Condition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Condition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Condition </td></tr>
 		</table></td></tr>
@@ -356,13 +439,15 @@ digraph G {
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  getId() </td></tr>
+<tr><td align="left" balign="left">  setId() </td></tr>
 <tr><td align="left" balign="left">  addComparison() </td></tr>
 <tr><td align="left" balign="left">  checkAll() </td></tr>
 <tr><td align="left" balign="left">  checkAll() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.ComparisonList
-	c226 [label=<<table title="org.vorpal.blade.framework.config.ComparisonList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparisonList.html">
+	c251 [label=<<table title="org.vorpal.blade.framework.config.ComparisonList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ComparisonList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ComparisonList </td></tr>
 		</table></td></tr>
@@ -374,7 +459,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.Comparison
-	c227 [label=<<table title="org.vorpal.blade.framework.config.Comparison" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Comparison.html">
+	c252 [label=<<table title="org.vorpal.blade.framework.config.Comparison" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Comparison.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Comparison </td></tr>
 		</table></td></tr>
@@ -386,56 +471,60 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.framework.config.AddressMap
-	c228 [label=<<table title="org.vorpal.blade.framework.config.AddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddressMap.html">
+	c253 [label=<<table title="org.vorpal.blade.framework.config.AddressMap" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddressMap.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddressMap </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.Settings implements org.vorpal.blade.framework.config.SettingsMXBean
-	c206:p -> c207:p [dir=back,arrowtail=empty,style=dashed];
+	c227:p -> c228:p [dir=back,arrowtail=empty,style=dashed];
+	//org.vorpal.blade.framework.config.RouterConfig extends org.vorpal.blade.framework.config.Configuration
+	c243:p -> c232:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigTreeMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c219:p [dir=back,arrowtail=empty];
+	c224:p -> c244:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigPrefixMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c220:p [dir=back,arrowtail=empty];
+	c224:p -> c245:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigLinkedHashMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c221:p [dir=back,arrowtail=empty];
+	c224:p -> c246:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigIPv4Map extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c222:p [dir=back,arrowtail=empty];
+	c224:p -> c247:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigHashMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c223:p [dir=back,arrowtail=empty];
+	c224:p -> c248:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ConfigAddressMap extends org.vorpal.blade.framework.config.TranslationsMap
-	c203:p -> c224:p [dir=back,arrowtail=empty];
+	c224:p -> c249:p [dir=back,arrowtail=empty];
 	//org.vorpal.blade.framework.config.ComparisonList implements org.vorpal.blade.framework.config.RequestCondition
-	c210:p -> c226:p [dir=back,arrowtail=empty,style=dashed];
+	c233:p -> c251:p [dir=back,arrowtail=empty,style=dashed];
 	//org.vorpal.blade.framework.config.Comparison implements org.vorpal.blade.framework.config.RequestCondition
-	c210:p -> c227:p [dir=back,arrowtail=empty,style=dashed];
+	c233:p -> c252:p [dir=back,arrowtail=empty,style=dashed];
 	// org.vorpal.blade.framework.config.TranslationsMap NAVASSOC org.vorpal.blade.framework.config.Selector
-	c203:p -> c208:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c224:p -> c231:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.Translation NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c204:p -> c203:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c225:p -> c224:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.SettingsManager<T> NAVASSOC org.vorpal.blade.framework.config.Settings
-	c205:p -> c207:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c226:p -> c228:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.Settings NAVASSOC org.vorpal.blade.framework.config.SettingsManager<T>
-	c207:p -> c205:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Selector
-	c209:p -> c208:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c209:p -> c203:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
-	c209:p -> c203:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// org.vorpal.blade.framework.config.RouterSettings NAVASSOC org.vorpal.blade.framework.config.Translation
-	c209:p -> c204:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c228:p -> c226:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.config.ServerPool NAVASSOC org.vorpal.blade.framework.config.ServerPair
+	c229:p -> c230:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.config.RouterConfig NAVASSOC org.vorpal.blade.framework.config.Selector
+	c232:p -> c231:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.config.RouterConfig NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
+	c232:p -> c224:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.config.RouterConfig NAVASSOC org.vorpal.blade.framework.config.TranslationsMap
+	c232:p -> c224:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// org.vorpal.blade.framework.config.RouterConfig NAVASSOC org.vorpal.blade.framework.config.Translation
+	c232:p -> c225:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.RegExRoute NAVASSOC org.vorpal.blade.framework.config.Selector
-	c211:p -> c208:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c234:p -> c231:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigTreeMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c219:p -> c204:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c244:p -> c225:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigLinkedHashMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c221:p -> c204:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c246:p -> c225:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigIPv4Map NAVASSOC org.vorpal.blade.framework.config.AddressMap
-	c222:p -> c228:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c247:p -> c253:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigHashMap NAVASSOC org.vorpal.blade.framework.config.Translation
-	c223:p -> c204:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c248:p -> c225:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.vorpal.blade.framework.config.ConfigAddressMap NAVASSOC org.vorpal.blade.framework.config.AddressMap
-	c224:p -> c228:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c249:p -> c253:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

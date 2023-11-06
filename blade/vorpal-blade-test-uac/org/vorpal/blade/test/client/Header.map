@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../framework/tpcc/Simple.html" title="org.vorpal.blade.framework.tpcc.Simple" alt="" coords="16,11,167,111"/>
+<area shape="rect" id="node2_1" href="./Header.html" title="org.vorpal.blade.test.client.Header" alt="" coords="151,177,208,200"/>
+<area shape="rect" id="node3_2" href="./MessageRequest.html" title="org.vorpal.blade.test.client.MessageRequest" alt="" coords="212,49,325,73"/>
+</map>

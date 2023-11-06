@@ -1,4 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./KeepAliveCallflow.html" title="org.vorpal.blade.services.keepalive.KeepAliveCallflow" alt="" coords="16,11,133,99"/>
-<area shape="rect" id="node2_1" href="./KeepAliveExpiry.html" title="org.vorpal.blade.services.keepalive.KeepAliveExpiry" alt="" coords="21,157,129,229"/>
+<area shape="rect" id="node1_0" href="./KeepAliveCallflow.html" title="org.vorpal.blade.services.keepalive.KeepAliveCallflow" alt="" coords="16,11,133,97"/>
+<area shape="rect" id="node2_1" href="./KeepAliveExpiry.html" title="org.vorpal.blade.services.keepalive.KeepAliveExpiry" alt="" coords="21,156,128,227"/>
 </map>

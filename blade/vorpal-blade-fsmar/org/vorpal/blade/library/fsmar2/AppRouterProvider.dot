@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.library.fsmar2.AppRouterProvider
-	c67 [label=<<table title="org.vorpal.blade.library.fsmar2.AppRouterProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AppRouterProvider.html">
+	c74 [label=<<table title="org.vorpal.blade.library.fsmar2.AppRouterProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AppRouterProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AppRouterProvider </td></tr>
 		</table></td></tr>

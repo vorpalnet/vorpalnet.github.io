@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer
-	c2293 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./JsonIPAddressDeserializer.html">
+	c2739 [label=<<table title="org.vorpal.blade.framework.config.JsonIPAddressDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./JsonIPAddressDeserializer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JsonIPAddressDeserializer </td></tr>
 		</table></td></tr>
@@ -22,15 +22,15 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	//org.vorpal.blade.framework.config.JsonIPAddressDeserializer extends com.fasterxml.jackson.databind.deser.std.StdDeserializer<inet.ipaddr.IPAddress>
-	c2334:p -> c2293:p [dir=back,arrowtail=empty];
-	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer DEPEND com.fasterxml.jackson.core.JsonParser
-	c2293:p -> c2335:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer DEPEND com.fasterxml.jackson.databind.DeserializationContext
-	c2293:p -> c2336:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2784:p -> c2739:p [dir=back,arrowtail=empty];
 	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer DEPEND inet.ipaddr.IPAddress
-	c2293:p -> c2337:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2739:p -> c2785:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer DEPEND com.fasterxml.jackson.core.JsonParser
+	c2739:p -> c2786:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// org.vorpal.blade.framework.config.JsonIPAddressDeserializer DEPEND com.fasterxml.jackson.databind.DeserializationContext
+	c2739:p -> c2787:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.fasterxml.jackson.databind.deser.std.StdDeserializer<T>
-	c2334 [label=<<table title="com.fasterxml.jackson.databind.deser.std.StdDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c2784 [label=<<table title="com.fasterxml.jackson.databind.deser.std.StdDeserializer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> StdDeserializer&lt;T&gt; </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.databind.deser.std </font></td></tr>
@@ -124,7 +124,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// inet.ipaddr.IPAddress
-	c2337 [label=<<table title="inet.ipaddr.IPAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c2785 [label=<<table title="inet.ipaddr.IPAddress" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> IPAddress </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> inet.ipaddr </font></td></tr>
@@ -181,6 +181,8 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  getIterable() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  increment() </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="9.0">  incrementBoundary() </font></td></tr>
+<tr><td align="left" balign="left">  isIPAddress() </td></tr>
+<tr><td align="left" balign="left">  toIPAddress() </td></tr>
 <tr><td align="left" balign="left">  isIPv4() </td></tr>
 <tr><td align="left" balign="left">  isIPv6() </td></tr>
 <tr><td align="left" balign="left">  getIPVersion() </td></tr>
@@ -289,7 +291,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// com.fasterxml.jackson.databind.DeserializationContext
-	c2336 [label=<<table title="com.fasterxml.jackson.databind.DeserializationContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c2787 [label=<<table title="com.fasterxml.jackson.databind.DeserializationContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> DeserializationContext </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.databind </font></td></tr>
@@ -405,7 +407,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// com.fasterxml.jackson.core.JsonParser
-	c2335 [label=<<table title="com.fasterxml.jackson.core.JsonParser" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c2786 [label=<<table title="com.fasterxml.jackson.core.JsonParser" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> JsonParser </font></td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.fasterxml.jackson.core </font></td></tr>

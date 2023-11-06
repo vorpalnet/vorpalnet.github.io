@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.vorpal.blade.library.fsmar2.Action
-	c34 [label=<<table title="org.vorpal.blade.library.fsmar2.Action" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Action.html">
+	c37 [label=<<table title="org.vorpal.blade.library.fsmar2.Action" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Action.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Action </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.library.fsmar2.Transition
-	c39 [label=<<table title="org.vorpal.blade.library.fsmar2.Transition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transition.html">
+	c42 [label=<<table title="org.vorpal.blade.library.fsmar2.Transition" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Transition.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Transition </td></tr>
 		</table></td></tr>
@@ -41,6 +41,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=9.0];
 	// org.vorpal.blade.library.fsmar2.Transition NAVASSOC org.vorpal.blade.library.fsmar2.Action
-	c39:p -> c34:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c42:p -> c37:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

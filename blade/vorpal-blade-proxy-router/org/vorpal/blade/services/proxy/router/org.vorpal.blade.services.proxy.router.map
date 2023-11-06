@@ -1,6 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ProxyRouterConfig.html" title="org.vorpal.blade.services.proxy.router.ProxyRouterConfig" alt="" coords="37,35,159,107"/>
-<area shape="rect" id="node2_1" href="./ProxyRouterConfigSample.html" title="org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample" alt="" coords="16,196,180,220"/>
-<area shape="rect" id="node3_2" href="./ProxyInvite.html" title="org.vorpal.blade.services.proxy.router.ProxyInvite" alt="" coords="205,35,282,107"/>
-<area shape="rect" id="node4_3" href="./ProxyRouterSipServlet.html" title="org.vorpal.blade.services.proxy.router.ProxyRouterSipServlet" alt="" coords="327,11,469,131"/>
+<area shape="rect" id="node1_0" href="./MediaHubConfigSample.html" title="org.vorpal.blade.services.proxy.router.MediaHubConfigSample" alt="" coords="16,58,168,82"/>
+<area shape="rect" id="node2_1" href="./TestRegEx.html" title="org.vorpal.blade.services.proxy.router.TestRegEx" alt="" coords="213,34,288,105"/>
+<area shape="rect" id="node3_2" href="./ProxyRouterConfigSample.html" title="org.vorpal.blade.services.proxy.router.ProxyRouterConfigSample" alt="" coords="333,58,496,82"/>
+<area shape="rect" id="node4_3" href="./ProxyInvite.html" title="org.vorpal.blade.services.proxy.router.ProxyInvite" alt="" coords="542,34,618,105"/>
+<area shape="rect" id="node5_4" href="./ProxyRouterSipServlet.html" title="org.vorpal.blade.services.proxy.router.ProxyRouterSipServlet" alt="" coords="664,11,805,129"/>
 </map>

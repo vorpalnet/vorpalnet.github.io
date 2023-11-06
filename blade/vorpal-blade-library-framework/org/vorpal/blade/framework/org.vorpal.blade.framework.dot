@@ -29,10 +29,14 @@ digraph G {
 <tr><td align="left" balign="left">  doResponse() </td></tr>
 <tr><td align="left" balign="left">  timeout() </td></tr>
 <tr><td align="left" balign="left">  getSipLogger() </td></tr>
+<tr><td align="left" balign="left">  setSipLogger() </td></tr>
 <tr><td align="left" balign="left">  getSipFactory() </td></tr>
+<tr><td align="left" balign="left">  setSipFactory() </td></tr>
 <tr><td align="left" balign="left">  getSipUtil() </td></tr>
+<tr><td align="left" balign="left">  setSipUtil() </td></tr>
 <tr><td align="left" balign="left">  getTimerService() </td></tr>
 <tr><td align="left" balign="left">  hash() </td></tr>
+<tr><td align="left" balign="left">  getAppSessionHashKey() </td></tr>
 <tr><td align="left" balign="left">  getAccountName() </td></tr>
 <tr><td align="left" balign="left">  getAccountName() </td></tr>
 <tr><td align="left" balign="left">  sendResponse() </td></tr>

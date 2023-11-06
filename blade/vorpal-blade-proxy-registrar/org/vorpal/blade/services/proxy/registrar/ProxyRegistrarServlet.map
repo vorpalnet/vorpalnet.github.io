@@ -1,5 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./ProxyRegistrarServlet.html" title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrarServlet" alt="" coords="24,427,196,611"/>
-<area shape="rect" id="node3_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,669,204,1587"/>
-<area shape="rect" id="node2_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/AsyncSipServlet.html" title="org.vorpal.blade.framework.AsyncSipServlet" alt="" coords="45,11,175,368"/>
+<area shape="rect" id="node1_0" href="./ProxyRegistrarServlet.html" title="org.vorpal.blade.services.proxy.registrar.ProxyRegistrarServlet" alt="" coords="164,185,336,397"/>
+<area shape="rect" id="node4_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,456,247,1434"/>
+<area shape="rect" id="node5_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyPlan.html" title="org.vorpal.blade.framework.proxy.ProxyPlan" alt="" coords="292,824,448,1066"/>
+<area shape="rect" id="node2_3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyServlet.html" title="org.vorpal.blade.framework.proxy.ProxyServlet" alt="" coords="72,26,228,111"/>
+<area shape="rect" id="node3_4" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/proxy/ProxyListener.html" title="org.vorpal.blade.framework.proxy.ProxyListener" alt="" coords="274,11,429,127"/>
 </map>

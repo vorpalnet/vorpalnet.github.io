@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./TransferSettingsSample.html" title="org.vorpal.blade.services.transfer.TransferSettingsSample" alt="" coords="16,341,164,365"/>
-<area shape="rect" id="node2_1" href="./TransferSettings.html" title="org.vorpal.blade.services.transfer.TransferSettings" alt="" coords="173,19,345,267"/>
-<area shape="rect" id="node3_2" href="./TransferSettings.TransferStyle.html" title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" alt="" coords="209,333,309,373"/>
-<area shape="rect" id="node4_3" href="./TransferSettings.LoggingLevel.html" title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" alt="" coords="355,333,455,373"/>
-<area shape="rect" id="node5_4" href="./TransferServlet.html" title="org.vorpal.blade.services.transfer.TransferServlet" alt="" coords="391,11,525,275"/>
-<area shape="rect" id="node6_5" href="./TransferSettingsManager.html" title="org.vorpal.blade.services.transfer.TransferSettingsManager" alt="" coords="571,107,727,179"/>
+<area shape="rect" id="node1_0" href="./TransferSettingsSample.html" title="org.vorpal.blade.services.transfer.TransferSettingsSample" alt="" coords="16,368,164,391"/>
+<area shape="rect" id="node2_1" href="./TransferSettings.html" title="org.vorpal.blade.services.transfer.TransferSettings" alt="" coords="174,19,345,293"/>
+<area shape="rect" id="node3_2" href="./TransferSettings.TransferStyle.html" title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" alt="" coords="209,360,309,399"/>
+<area shape="rect" id="node4_3" href="./TransferSettings.LoggingLevel.html" title="org.vorpal.blade.services.transfer.TransferSettings.LoggingLevel" alt="" coords="355,360,454,399"/>
+<area shape="rect" id="node5_4" href="./TransferServlet.html" title="org.vorpal.blade.services.transfer.TransferServlet" alt="" coords="390,11,528,301"/>
+<area shape="rect" id="node6_5" href="./TransferSettingsManager.html" title="org.vorpal.blade.services.transfer.TransferSettingsManager" alt="" coords="574,120,729,191"/>
 </map>

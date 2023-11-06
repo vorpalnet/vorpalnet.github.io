@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="16,11,175,547"/>
-<area shape="rect" id="node3_1" href="./Settings.html" title="org.vorpal.blade.framework.config.Settings" alt="" coords="38,605,153,773"/>
-<area shape="rect" id="node2_2" href="./SettingsMXBean.html" title="org.vorpal.blade.framework.config.SettingsMXBean" alt="" coords="221,187,335,371"/>
+<area shape="rect" id="node1_0" href="./SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="16,11,174,536"/>
+<area shape="rect" id="node3_1" href="./Settings.html" title="org.vorpal.blade.framework.config.Settings" alt="" coords="38,595,152,760"/>
+<area shape="rect" id="node2_2" href="./SettingsMXBean.html" title="org.vorpal.blade.framework.config.SettingsMXBean" alt="" coords="219,183,333,364"/>
 </map>

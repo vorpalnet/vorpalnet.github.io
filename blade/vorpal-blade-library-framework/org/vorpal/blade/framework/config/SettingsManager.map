@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="551,11,710,547"/>
-<area shape="rect" id="node2_1" href="./Settings.html" title="org.vorpal.blade.framework.config.Settings" alt="" coords="16,2604,131,2772"/>
-<area shape="rect" id="node3_2" href="../logging/Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="176,2325,339,3051"/>
+<area shape="rect" id="node1_0" href="./SettingsManager.html" title="org.vorpal.blade.framework.config.SettingsManager" alt="" coords="609,11,766,536"/>
+<area shape="rect" id="node2_1" href="./Settings.html" title="org.vorpal.blade.framework.config.Settings" alt="" coords="16,2552,130,2717"/>
+<area shape="rect" id="node3_2" href="../logging/Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="175,2240,398,3029"/>
 </map>
