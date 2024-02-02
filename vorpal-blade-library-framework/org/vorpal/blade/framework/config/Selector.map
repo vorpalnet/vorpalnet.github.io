@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./TranslationsMap.html" title="org.vorpal.blade.framework.config.TranslationsMap" alt="" coords="16,172,141,399"/>
-<area shape="rect" id="node2_1" href="./Selector.html" title="org.vorpal.blade.framework.config.Selector" alt="" coords="136,458,242,701"/>
-<area shape="rect" id="node3_2" href="./RouterConfig.html" title="org.vorpal.blade.framework.config.RouterConfig" alt="" coords="18,11,139,113"/>
-<area shape="rect" id="node4_3" href="./RegExRoute.html" title="org.vorpal.blade.framework.config.RegExRoute" alt="" coords="238,274,324,297"/>
-</map>

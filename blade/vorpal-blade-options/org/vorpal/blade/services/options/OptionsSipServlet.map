@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./OptionsSipServlet.html" title="org.vorpal.blade.services.options.OptionsSipServlet" alt="" coords="72,483,191,601"/>
-<area shape="rect" id="node3_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/callflow/Callflow.html" title="org.vorpal.blade.framework.callflow.Callflow" alt="" coords="16,660,247,1637"/>
-<area shape="rect" id="node2_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/AsyncSipServlet.html" title="org.vorpal.blade.framework.AsyncSipServlet" alt="" coords="51,11,212,424"/>
-</map>

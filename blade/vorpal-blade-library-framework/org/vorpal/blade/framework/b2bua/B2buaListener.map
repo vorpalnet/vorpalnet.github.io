@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./InitialInvite.html" title="org.vorpal.blade.framework.b2bua.InitialInvite" alt="" coords="16,11,159,97"/>
-<area shape="rect" id="node3_1" href="./B2buaListener.html" title="org.vorpal.blade.framework.b2bua.B2buaListener" alt="" coords="32,156,143,321"/>
-<area shape="rect" id="node2_2" href="./B2buaServlet.html" title="org.vorpal.blade.framework.b2bua.B2buaServlet" alt="" coords="17,380,158,607"/>
-</map>

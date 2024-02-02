@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./TransferCondition.html" title="org.vorpal.blade.framework.transfer.TransferCondition" alt="" coords="177,358,292,476"/>
-<area shape="rect" id="node3_1" href="../../services/transfer/TransferSettings.TransferStyle.html" title="org.vorpal.blade.services.transfer.TransferSettings.TransferStyle" alt="" coords="16,582,243,635"/>
-<area shape="rect" id="node4_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/config/Condition.html" title="org.vorpal.blade.framework.config.Condition" alt="" coords="288,534,446,682"/>
-<area shape="rect" id="node2_3" href="../../services/transfer/TransferSettings.html" title="org.vorpal.blade.services.transfer.TransferSettings" alt="" coords="96,11,267,299"/>
-</map>

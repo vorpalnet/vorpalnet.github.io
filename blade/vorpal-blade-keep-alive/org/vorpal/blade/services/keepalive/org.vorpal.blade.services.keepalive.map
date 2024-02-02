@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./KeepAliveCallflow.html" title="org.vorpal.blade.services.keepalive.KeepAliveCallflow" alt="" coords="166,89,282,176"/>
-<area shape="rect" id="node4_1" href="./KeepAliveExpiry.html" title="org.vorpal.blade.services.keepalive.KeepAliveExpiry" alt="" coords="16,313,123,384"/>
-<area shape="rect" id="node5_2" href="./KeepAliveUpdate.html" title="org.vorpal.blade.services.keepalive.KeepAliveUpdate" alt="" coords="168,313,280,384"/>
-<area shape="rect" id="node6_3" href="./KeepAliveReinvite.html" title="org.vorpal.blade.services.keepalive.KeepAliveReinvite" alt="" coords="325,313,443,384"/>
-<area shape="rect" id="node2_4" href="./KeepAliveServlet.html" title="org.vorpal.blade.services.keepalive.KeepAliveServlet" alt="" coords="328,11,499,254"/>
-<area shape="rect" id="node3_5" href="./KeepAliveConfig.html" title="org.vorpal.blade.services.keepalive.KeepAliveConfig" alt="" coords="545,73,674,191"/>
-</map>
