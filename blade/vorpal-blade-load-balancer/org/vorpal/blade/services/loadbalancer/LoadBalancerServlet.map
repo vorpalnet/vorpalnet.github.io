@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./LoadBalancerServlet.html" title="org.vorpal.blade.services.loadbalancer.LoadBalancerServlet" alt="" coords="164,155,296,275"/>
-<area shape="rect" id="node3_1" href="./proxy/ProxyRule.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyRule" alt="" coords="16,629,217,763"/>
-<area shape="rect" id="node4_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/vorpal/blade/framework/logging/Logger.html" title="org.vorpal.blade.framework.logging.Logger" alt="" coords="263,333,426,1059"/>
-<area shape="rect" id="node2_3" href="./proxy/ProxyServlet.html" title="org.vorpal.blade.services.loadbalancer.proxy.ProxyServlet" alt="" coords="129,11,331,96"/>
-</map>

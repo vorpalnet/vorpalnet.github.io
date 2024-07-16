@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.vorpal.blade.library.shared","c":"Placeholder","l":"Placeholder()","url":"%3Cinit%3E()"}]
