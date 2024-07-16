@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.vorpal.blade.services.proxy.registrar"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.vorpal.blade.services.proxy.registrar"}];updateSearchResults();

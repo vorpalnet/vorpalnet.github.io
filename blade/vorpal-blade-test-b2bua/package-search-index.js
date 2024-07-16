@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.vorpal.blade.test.b2bua"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.vorpal.blade.applications.console.config.test"},{"l":"org.vorpal.blade.test.b2bua"}];updateSearchResults();

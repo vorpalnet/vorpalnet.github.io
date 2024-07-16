@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.vorpal.blade.services.queue"},{"l":"org.vorpal.blade.services.queue.config"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.vorpal.blade.services.queue"},{"l":"org.vorpal.blade.services.queue.config"}];updateSearchResults();
