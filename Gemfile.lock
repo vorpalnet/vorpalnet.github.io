@@ -9,7 +9,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-java)
     ffi (1.16.3)
+    ffi (1.16.3-java)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
@@ -70,10 +72,17 @@ GEM
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
+    tzinfo (1.2.11)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2024.1)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     webrick (1.8.1)
 
 PLATFORMS
+  java
   ruby
   x86_64-darwin-23
 
