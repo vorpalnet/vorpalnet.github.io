@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.vorpal.blade.framework.transfer"},{"l":"org.vorpal.blade.services.transfer"},{"l":"org.vorpal.blade.services.transfer.api.v1"}];updateSearchResults();
