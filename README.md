@@ -1,5 +1,3 @@
-# Vorpal.net Javadocs
-
 Welcome to the collection of Vorpal Networks, LLC Javadocs repository.
 
 # BLADE
