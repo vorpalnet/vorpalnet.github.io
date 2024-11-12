@@ -1,0 +1,5 @@
+javax.servlet.sip
+javax.servlet.sip.annotation
+javax.servlet.sip.annotation.security
+javax.servlet.sip.ar
+javax.servlet.sip.ar.spi

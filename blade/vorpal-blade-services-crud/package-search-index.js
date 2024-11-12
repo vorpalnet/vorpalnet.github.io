@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.vorpal.blade.services.crud"},{"l":"org.vorpal.blade.services.crud2"},{"l":"org.vorpal.blade.services.crud2.b2bua"},{"l":"org.vorpal.blade.services.crud2.config"},{"l":"org.vorpal.blade.services.crud2.rules"}]
